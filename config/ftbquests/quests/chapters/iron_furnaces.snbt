@@ -1,0 +1,866 @@
+{
+	id: "243440281CCAF451"
+	group: "737DDDCA4ED344D7"
+	order_index: 0
+	filename: "iron_furnaces"
+	title: "Iron Furnaces"
+	icon: "ironfurnaces:crystal_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -13.5d
+			y: 0.0d
+			dependencies: [
+				"5A0187C44141FE80"
+				"279D3F36109C9DA3"
+			]
+			id: "6EEAE1F964242189"
+			tasks: [{
+				id: "15E023C11B526896"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [
+				{
+					id: "612180797942A272"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6A39C4CC57A8F74B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: ["65C2367F532F1902"]
+			id: "4B7EB5D84C83ABED"
+			tasks: [{
+				id: "56F503FBD7BA4F03"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [
+				{
+					id: "12CEA83DF63FE7CC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5ED83BCD81B90CFF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["52ABE32BD8D637CA"]
+			id: "15DF5ABBA72F6C46"
+			tasks: [{
+				id: "786809A1C207A1BB"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [
+				{
+					id: "3EA2AC9259A5D928"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "225A4AE130EECC5B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["15DF5ABBA72F6C46"]
+			id: "1787B3962B766EA6"
+			tasks: [{
+				id: "57E84FA40AE1A9A3"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [
+				{
+					id: "65B8E44EEAB5F352"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7517E7BD7846A208"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: [
+				"097A25F8D63B09CD"
+				"246989E84B4BA9D2"
+				"26D9B386029FEE29"
+			]
+			id: "11B4CE4CA52AA224"
+			tasks: [{
+				id: "58E73DE3F744AB44"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [
+				{
+					id: "2464A9C30390497D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3028136185B53D1E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["1787B3962B766EA6"]
+			id: "26D9B386029FEE29"
+			tasks: [{
+				id: "0082202CD2B48D62"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [
+				{
+					id: "0D76EA656C85B804"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3046ABF9B6278446"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: [
+				"391197EDBD637E0B"
+				"11B4CE4CA52AA224"
+			]
+			id: "3386443B250458BC"
+			tasks: [{
+				id: "1D4573F0183015D4"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [
+				{
+					id: "69A1EABA170FD37A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "13590B2F501A03FB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 1.5d
+			dependencies: ["538C1953281BB812"]
+			id: "2480C1C5532939C0"
+			tasks: [{
+				id: "3486B49B081336E8"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [
+				{
+					id: "4EB7F98293035687"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "64ACD628D2665E50"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 1.5d
+			dependencies: [
+				"288ABB5D930FEB8C"
+				"6D57294B193D29AB"
+			]
+			id: "1A5519EC86AA4A81"
+			tasks: [{
+				id: "06A5EE7989AFA68A"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+			rewards: [
+				{
+					id: "7F422A0372DE9768"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "40FFE63759324A17"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 0.0d
+			id: "5A0187C44141FE80"
+			tasks: [{
+				id: "5F6CE1EE39D44BCF"
+				type: "item"
+				item: "ironfurnaces:upgrade_iron"
+			}]
+			rewards: [
+				{
+					id: "60DA51181D714EBC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "37BF4F3AE7FB4506"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["6EEAE1F964242189"]
+			id: "65C2367F532F1902"
+			tasks: [{
+				id: "47A21FF0CA7BBBC0"
+				type: "item"
+				item: "ironfurnaces:upgrade_gold"
+			}]
+			rewards: [
+				{
+					id: "3C688A58D1204D59"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1A32CC8F5D6436DD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			dependencies: [
+				"51D810FA58CEF994"
+				"4B7EB5D84C83ABED"
+				"65C2367F532F1902"
+			]
+			id: "52ABE32BD8D637CA"
+			tasks: [{
+				id: "3AEFE05E765B3B0C"
+				type: "item"
+				item: "ironfurnaces:upgrade_diamond"
+			}]
+			rewards: [
+				{
+					id: "4316C56985DEFD3C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "025729DAEB4CA77E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			dependencies: [
+				"15DF5ABBA72F6C46"
+				"52ABE32BD8D637CA"
+			]
+			id: "50105FCF91C6FFCB"
+			tasks: [{
+				id: "6658DE2970FC0AA5"
+				type: "item"
+				item: "ironfurnaces:upgrade_emerald"
+			}]
+			rewards: [
+				{
+					id: "7782BC3CA94A01C3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1AC78E477043ED7A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: [
+				"1787B3962B766EA6"
+				"50105FCF91C6FFCB"
+			]
+			id: "097A25F8D63B09CD"
+			tasks: [{
+				id: "62E7226C4D73CF9E"
+				type: "item"
+				item: "ironfurnaces:upgrade_obsidian"
+			}]
+			rewards: [
+				{
+					id: "43F88EB8807625AF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "01A4231B1A648374"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: [
+				"11B4CE4CA52AA224"
+				"097A25F8D63B09CD"
+			]
+			id: "391197EDBD637E0B"
+			tasks: [{
+				id: "37624A8E19CA6B86"
+				type: "item"
+				item: "ironfurnaces:upgrade_netherite"
+			}]
+			rewards: [
+				{
+					id: "269DA80FF6F6C316"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0412C41D4F33EA71"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			dependencies: [
+				"3386443B250458BC"
+				"391197EDBD637E0B"
+			]
+			id: "4D1FFBADA2EE9080"
+			tasks: [{
+				id: "0A7F9130BB5FC524"
+				type: "item"
+				item: "ironfurnaces:upgrade_allthemodium"
+			}]
+			rewards: [
+				{
+					id: "339F995CF799B1A2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7A112E0BDBFE797A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 1.5d
+			id: "538C1953281BB812"
+			tasks: [{
+				id: "297947C7C8326391"
+				type: "item"
+				item: "ironfurnaces:upgrade_copper"
+			}]
+			rewards: [
+				{
+					id: "1CE58B952B599544"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4E3D6D456EBDF3DB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 3.0d
+			dependencies: ["2480C1C5532939C0"]
+			id: "6D57294B193D29AB"
+			tasks: [{
+				id: "173BFBC41A9FAEEC"
+				type: "item"
+				item: "ironfurnaces:upgrade_silver"
+			}]
+			rewards: [
+				{
+					id: "742E6835E40E3EFB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6919668F6B484AFF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["26D9B386029FEE29"]
+			id: "246989E84B4BA9D2"
+			tasks: [{
+				id: "5A14A683501F791D"
+				type: "item"
+				item: "ironfurnaces:upgrade_obsidian2"
+			}]
+			rewards: [
+				{
+					id: "4B450B2070161E53"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "22D71A4B98EEE7D8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 1.5d
+			dependencies: ["2480C1C5532939C0"]
+			id: "279D3F36109C9DA3"
+			tasks: [{
+				id: "40E7B60DF5578865"
+				type: "item"
+				item: "ironfurnaces:upgrade_iron2"
+			}]
+			rewards: [
+				{
+					id: "11721C4D42F6BB13"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5CDFB3A64A3FFC07"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["1A5519EC86AA4A81"]
+			id: "51D810FA58CEF994"
+			tasks: [{
+				id: "79E8857685AB160B"
+				type: "item"
+				item: "ironfurnaces:upgrade_gold2"
+			}]
+			rewards: [
+				{
+					id: "428A916A3187E0CC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "17A321C3C11E36BF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 1.5d
+			dependencies: [
+				"6D57294B193D29AB"
+				"279D3F36109C9DA3"
+			]
+			id: "288ABB5D930FEB8C"
+			tasks: [{
+				id: "7D075CC32BE7DF41"
+				type: "item"
+				item: "ironfurnaces:upgrade_silver2"
+			}]
+			rewards: [
+				{
+					id: "31109D0EF2DF19C6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4060F19B6895908D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: [
+				"4D1FFBADA2EE9080"
+				"3386443B250458BC"
+			]
+			id: "077401A8FEC9AF8E"
+			tasks: [{
+				id: "3944A6D2F242252B"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [
+				{
+					id: "5F6DB9C60D4267AB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2FDAF1AB0373323F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			dependencies: [
+				"7AEFB2A4EE91CD45"
+				"077401A8FEC9AF8E"
+			]
+			id: "169844BA7FC34BE5"
+			tasks: [{
+				id: "14B529845F2CED0E"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+			rewards: [
+				{
+					id: "27423C7D9546A17F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7A7D1754C60048F0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -12.0d
+			dependencies: [
+				"3AC6F13E532D595F"
+				"169844BA7FC34BE5"
+			]
+			id: "18A1330FF94D13D8"
+			tasks: [{
+				id: "31572074691A005C"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [
+				{
+					id: "06DBFEC93E1544F1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3D390C4FA35CFE80"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			dependencies: [
+				"077401A8FEC9AF8E"
+				"4D1FFBADA2EE9080"
+			]
+			id: "7AEFB2A4EE91CD45"
+			tasks: [{
+				id: "5164687F6FA3D9ED"
+				type: "item"
+				item: "ironfurnaces:upgrade_vibranium"
+			}]
+			rewards: [
+				{
+					id: "06D17687D5410D63"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "27D164DF4320DB70"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			dependencies: [
+				"169844BA7FC34BE5"
+				"7AEFB2A4EE91CD45"
+			]
+			id: "3AC6F13E532D595F"
+			tasks: [{
+				id: "798BB3D161A83AE8"
+				type: "item"
+				item: "ironfurnaces:upgrade_unobtainium"
+			}]
+			rewards: [
+				{
+					id: "1C491E05DDC79303"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3894F7AADCCD0EC0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "334233A9D64DB135"
+			tasks: [{
+				id: "5DB43544995CC8ED"
+				type: "item"
+				item: "ironfurnaces:heater"
+			}]
+			rewards: [
+				{
+					id: "3F1635DAC897D9C3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "36BD7BBE605F7B57"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "4E91FB7A8D23582B"
+			tasks: [{
+				id: "6E63257DC3EFE305"
+				type: "item"
+				item: "ironfurnaces:item_heater"
+			}]
+			rewards: [
+				{
+					id: "2485A8364CFFB2AB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "013DC64A095E8F5E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "442E5A44F0DCAC08"
+			tasks: [{
+				id: "4DAEFDC73ECA594A"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+			rewards: [
+				{
+					id: "593588328D367E2E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1B942115FEE3A6E7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "673BC6D1A1CF64B9"
+			tasks: [{
+				id: "380E04AC31A57356"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+			rewards: [
+				{
+					id: "3CD158EDB02948BA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0E8D2D8039585180"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			id: "2E6B5DC4DEB8A618"
+			tasks: [{
+				id: "4F0B8854C4F3716D"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [
+				{
+					id: "3D6C34117F42BB11"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "40B0857B3F036802"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "7DA60D6EEE471587"
+			tasks: [{
+				id: "64371D5AD1B08B96"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [
+				{
+					id: "175D03216A055727"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0EA4C9D42AAAF90D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "71FC47F66EDEAAD8"
+			tasks: [{
+				id: "2D1ADCEA64738796"
+				type: "item"
+				item: "ironfurnaces:item_copy"
+			}]
+			rewards: [
+				{
+					id: "0A70D1FCBA5D9BAF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "04A551685FC98C65"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

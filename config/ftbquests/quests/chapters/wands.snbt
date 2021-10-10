@@ -1,0 +1,178 @@
+{
+	id: "0B436CB1B2F5CABF"
+	group: "19C3EECE68324A97"
+	order_index: 1
+	filename: "wands"
+	title: "Construction Wand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 1.0d
+			dependency_requirement: "all_started"
+			id: "5402409614304A40"
+			tasks: [{
+				id: "09D04A2FC5F741FD"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "047C6857B00E35E3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "2035CE6B68786226"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["5402409614304A40"]
+			id: "47FC729EE958CD0E"
+			tasks: [{
+				id: "1632330266C6DC30"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A9C6BE6717C0230"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "60C5516DC120A3E6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["47FC729EE958CD0E"]
+			id: "533433E0A9B9497F"
+			tasks: [{
+				id: "5E24D49FB4DB79E9"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C0D190F3B508691"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "0C95F3AA527E1687"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["533433E0A9B9497F"]
+			id: "7D76B99E1B3198A1"
+			tasks: [{
+				id: "279538FD82AB6881"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "328192D63F93B50E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "537D8B98858630DB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["7D76B99E1B3198A1"]
+			id: "2C330F88D4D1BE99"
+			tasks: [{
+				id: "02FD6F90B2264D7E"
+				type: "item"
+				item: "constructionwand:core_angel"
+			}]
+			rewards: [
+				{
+					id: "7188F0611D3FD861"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+				{
+					id: "6E1C0884483019BC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["2C330F88D4D1BE99"]
+			id: "00473E5134D8F2F1"
+			tasks: [{
+				id: "1D7BC90123D266B1"
+				type: "item"
+				item: "constructionwand:core_destruction"
+			}]
+			rewards: [
+				{
+					id: "4CFB7F0C335C7367"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+				{
+					id: "5F0122F280391CA3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

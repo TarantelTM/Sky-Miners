@@ -1,0 +1,12 @@
+{
+	id: "5A7D0594C7CDD7AC"
+	group: "75706DC77897C570"
+	order_index: 2
+	filename: "resourceful_bees"
+	title: "Resourceful Bees"
+	icon: "resourcefulbees:t4_beehive"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

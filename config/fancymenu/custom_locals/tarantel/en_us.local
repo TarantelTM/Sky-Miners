@@ -1,0 +1,15 @@
+tarantel.updater.key = UPDATE
+tarantel.bisect.key = NEED A SERVER?
+tarantel.devserver.key = JOIN DEV SERVER
+tarantel.patchnotesopen.key = PATCH NOTES
+tarantel.reload.key = RELOAD
+tarantel.addonsopen.key = ADDONS!
+tarantel.close = CLOSE
+tarantel.back = BACK
+tarantel.exit = EXIT
+tarantel.install = INSTALL
+tarantel.extrainfo1 = ALL DOWNLOADS ARE FROM OFFICIAL SITES!
+tarantel.extrainfo2 = INSTALL NEW MODS FROM THE LIST
+tarantel.extrainfo3 = RESTART THE GAME AFTER INSTALL
+tarantel.extrainfo4 = WAIT 10 SECONDS BEFORE RESTART
+tarantel.optifine.info = CREATED BY SP614X - OPTIFINE.NET

@@ -1,0 +1,1535 @@
+{
+	id: "2D0246465E33E5CA"
+	group: "0FEC59B4FE167882"
+	order_index: 0
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["4634E32F5FB42F14"]
+			id: "08D035A7562C3702"
+			tasks: [{
+				id: "775E08CF2002B9D1"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "37919AA2BA76B4D1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5F7CDFF3DE4EF659"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["6C4B949585445C2D"]
+			id: "53A6D7FCD6AF87D5"
+			tasks: [{
+				id: "7691E304B5236D34"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "310E26F866CD462A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2391E7FAA6966E2E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["55CE02065E668F19"]
+			id: "3CF5336C56C96B1F"
+			tasks: [{
+				id: "04BF3B637F321F9F"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "565B44AF8E76B1B1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7F4E3AFB224F6ADA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["19EDB7A93AF18BB1"]
+			id: "5A1C79CCD90DFE1D"
+			tasks: [{
+				id: "3A248FA817CE6004"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "2F5FFBDC97AAC024"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "311B634037D82BAA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["427DEA62C7805529"]
+			id: "669FF977A11E73D4"
+			tasks: [{
+				id: "0D2AC64E38407657"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "726AAB885DF51C33"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0249C14A51B9F1D8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["5CAC52CC05460B64"]
+			id: "3DA7848943D49B15"
+			tasks: [{
+				id: "15D5C891EBDE5CC3"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "0E984FD938443446"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1C63336034E43B60"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["10928FE78E293505"]
+			id: "528177856F6C13F4"
+			tasks: [{
+				id: "4D623BA918105A47"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "680E0D67B313C1DD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "422AC23D7B2C777E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["60B959058EB0CC58"]
+			id: "689FBEAA3F9570F3"
+			tasks: [{
+				id: "69802849CBA12F4B"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "4D397F0DCA51EA69"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "01BD49F175C068A3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["3965357348D8F934"]
+			id: "6B30A879E16443ED"
+			tasks: [{
+				id: "461E41BB52CFC847"
+				type: "item"
+				item: "mekanism:basic_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "52D6BFBD5292CFBC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1149BF56FF00A457"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			id: "4A9AA7F0235C0BCA"
+			tasks: [{
+				id: "06727808342658B4"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "45BE4E9AEA612324"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6A7DFA311838C4AC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["08D035A7562C3702"]
+			id: "0F842B3187590788"
+			tasks: [{
+				id: "424DBE39966C5C9E"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "4D742959181475CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "79A535E40494CE23"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["53A6D7FCD6AF87D5"]
+			id: "48D88D2F0815447E"
+			tasks: [{
+				id: "627AAFEBB164BECA"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "7AFAEFDB2A312197"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2E4BCCF16C6C903C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["3CF5336C56C96B1F"]
+			id: "386A38CA790E7E2A"
+			tasks: [{
+				id: "7104E6184772A4AF"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "58BE482DC85B3585"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "455FFE6829360C7C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["5A1C79CCD90DFE1D"]
+			id: "0AB524107CF99BF0"
+			tasks: [{
+				id: "360F67E78112EF64"
+				type: "item"
+				item: "mekanism:advanced_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "60DA6BC680D4C09D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "46F4035F7DBDD171"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["669FF977A11E73D4"]
+			id: "54CAA7DC631E0EA8"
+			tasks: [{
+				id: "138AE86030A8D3C8"
+				type: "item"
+				item: "mekanism:advanced_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "1B028745FEF87B23"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "52088B62530DC734"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["3DA7848943D49B15"]
+			id: "3C0B2E6AAE00B067"
+			tasks: [{
+				id: "34953890D0269EEF"
+				type: "item"
+				item: "mekanism:advanced_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "45910C10AB1357E6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "75016D55007A2A28"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["528177856F6C13F4"]
+			id: "5F3516BAA74E5128"
+			tasks: [{
+				id: "08E36A465892EB5D"
+				type: "item"
+				item: "mekanism:advanced_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "2F68AD7C3839A84A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "570E5F18E1E7FB47"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["689FBEAA3F9570F3"]
+			id: "21B5B57C4DAEC716"
+			tasks: [{
+				id: "160A15EF12B3163E"
+				type: "item"
+				item: "mekanism:advanced_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "2C9A4BF7D2002BA4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "37DCA4C27749B34E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			dependencies: ["6B30A879E16443ED"]
+			id: "5A662EFFF562C1C1"
+			tasks: [{
+				id: "3D738816E8037518"
+				type: "item"
+				item: "mekanism:advanced_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "027ECD61BFA3A214"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0827211EBD97D3B4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			dependencies: ["4A9AA7F0235C0BCA"]
+			id: "3B9B1EA381A00105"
+			tasks: [{
+				id: "5A2D56785EDD5568"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "638482333218C896"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0A8D19390968910F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["0F842B3187590788"]
+			id: "2DBC4A049A90CB00"
+			tasks: [{
+				id: "4BFE594DEC0904A7"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "3B621B5B1D1325FD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0EEBEEFB02EBD106"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["48D88D2F0815447E"]
+			id: "53DD8DE3418D6AA0"
+			tasks: [{
+				id: "0B26F9460EC7E109"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "6F53F659A3DCF79D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1488398EEE8F2497"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["386A38CA790E7E2A"]
+			id: "3713DA968A645F99"
+			tasks: [{
+				id: "34BC3C6464C35BE1"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "55AAAC0128EE2217"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4A14F2D9949632FF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0AB524107CF99BF0"]
+			id: "13A9BCB1B1A81CA6"
+			tasks: [{
+				id: "2DA23022B1902D20"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "41C8977C45462971"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1658BA6ED45FAFD0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["54CAA7DC631E0EA8"]
+			id: "6F185871305F1717"
+			tasks: [{
+				id: "751D3CBC3FBF7802"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "3093B7CFB1CAE0D5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4E9AC6A866E5F28F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["3C0B2E6AAE00B067"]
+			id: "00784086F64874B5"
+			tasks: [{
+				id: "63A924A7B8E72E02"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "00F510D01EB2D5B6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "36CDE1FF287096CC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["5F3516BAA74E5128"]
+			id: "5BD74BE26F1FC690"
+			tasks: [{
+				id: "2A630720D8DF5F56"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "4728F5C2BF5C2507"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6FE133723DD0C34D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["21B5B57C4DAEC716"]
+			id: "738A43A651BAD660"
+			tasks: [{
+				id: "31DD8E5300130646"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "5F6FB098633CC1F4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1C96B290495B86EC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			dependencies: ["5A662EFFF562C1C1"]
+			id: "58D2108228075F58"
+			tasks: [{
+				id: "0897DFCB5C1508AB"
+				type: "item"
+				item: "mekanism:elite_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "42014601846F9E79"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "073D25393C9C95F8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 12.0d
+			dependencies: ["3B9B1EA381A00105"]
+			id: "717D8D27ECA9BDEE"
+			tasks: [{
+				id: "6BC2AFD945B36A91"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "0F1233234A62E402"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6D4C808DA990F040"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["2DBC4A049A90CB00"]
+			id: "7358586A01CD7AF1"
+			tasks: [{
+				id: "7F6C9B2DBCC61CAB"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "196DE4E149D112CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "663A83CEEA163528"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["53DD8DE3418D6AA0"]
+			id: "74F2798D39273DA7"
+			tasks: [{
+				id: "30BF13F76CA9D9BB"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "3299E1E98F806B1E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "37E695F514EF7728"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["3713DA968A645F99"]
+			id: "075AFDB862191600"
+			tasks: [{
+				id: "0ED324D224127770"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "030251B5E3186945"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "589117DAAFC38E91"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["13A9BCB1B1A81CA6"]
+			id: "0F44BEC10AC3E851"
+			tasks: [{
+				id: "58F5D1D3C63BD169"
+				type: "item"
+				item: "mekanism:ultimate_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "47CAA04141B661D3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4C6F34E844C0E01B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["6F185871305F1717"]
+			id: "2AE573D4259C023E"
+			tasks: [{
+				id: "1AF862A625C645FE"
+				type: "item"
+				item: "mekanism:ultimate_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "2424C6EA81E06C33"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "69BD8D3063631870"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["00784086F64874B5"]
+			id: "373F6C18BC23E477"
+			tasks: [{
+				id: "65F68686264A07CC"
+				type: "item"
+				item: "mekanism:ultimate_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "404616395E6A2028"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "390D43DC59C5A611"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["5BD74BE26F1FC690"]
+			id: "34782688E78C9BD8"
+			tasks: [{
+				id: "30209DF81001842F"
+				type: "item"
+				item: "mekanism:ultimate_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "38C7A51F4C33E072"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "09299F5D1463F15C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			dependencies: ["738A43A651BAD660"]
+			id: "5F61D0892ADA2122"
+			tasks: [{
+				id: "3A9D5B3EF1E736C8"
+				type: "item"
+				item: "mekanism:ultimate_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "70AE6BF328A8B9C9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0FE87788C718A9D9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			dependencies: ["58D2108228075F58"]
+			id: "40A9DC27436A6BED"
+			tasks: [{
+				id: "0321843557AE2C3E"
+				type: "item"
+				item: "mekanism:ultimate_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "3F9763E6BEABA7B3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4955896D240F69F0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["717D8D27ECA9BDEE"]
+			id: "686436A1CFE640DD"
+			tasks: [{
+				id: "295992B578A8D539"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "69C911D8C26C939F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1AD32D66721DC37E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			id: "4634E32F5FB42F14"
+			tasks: [{
+				id: "61A6B0DB1BB3A411"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [
+				{
+					id: "33804BCDD3FC99F0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2946C42966619722"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			id: "55CE02065E668F19"
+			tasks: [{
+				id: "728C18723AEED296"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [
+				{
+					id: "4AE9F0956A595DE8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "641AAF1DCBD6B6C9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "6C4B949585445C2D"
+			tasks: [{
+				id: "4F4177F308A598FE"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [
+				{
+					id: "09A50631532316C9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7204E80E8AAB21C0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			id: "19EDB7A93AF18BB1"
+			tasks: [{
+				id: "1D706DE738961B9D"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [
+				{
+					id: "0651385686B10DAB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5EA4AFF8E48DD901"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			id: "427DEA62C7805529"
+			tasks: [{
+				id: "4F18647C45289532"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [
+				{
+					id: "287C1E8FD1587639"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "40DDAC09934EB449"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			id: "5CAC52CC05460B64"
+			tasks: [{
+				id: "7DAD5CE2DAFC1435"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [
+				{
+					id: "0FA3FF24097659D0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5EFB66957A9E9F0F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			id: "10928FE78E293505"
+			tasks: [{
+				id: "4DD26D0E030A734F"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [
+				{
+					id: "6C788A9F91259E6F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "04BAF202571D0ABD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 9.0d
+			id: "60B959058EB0CC58"
+			tasks: [{
+				id: "0404D8EF83922F0D"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "7CF5C2A68E39819C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1FCAC44970F6A8D2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			id: "3965357348D8F934"
+			tasks: [{
+				id: "0EEAF9D85AA33AF8"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+			rewards: [
+				{
+					id: "2369AEEF50CAE5D5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "77D38875B15BABA2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			id: "4089C505A5236062"
+			tasks: [{
+				id: "776FDA8E3E4AFF69"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [
+				{
+					id: "0C186D1BD958DEA7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "50C60C7FA88B3FA3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["4089C505A5236062"]
+			id: "3B1DDC27FF4999D7"
+			tasks: [{
+				id: "2C1830B1BD201E6E"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [
+				{
+					id: "16A33430FAFAB9A1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7175B673F76772B7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["3B1DDC27FF4999D7"]
+			id: "65D9532E38DC5288"
+			tasks: [{
+				id: "5FB1D7ECE9C8858E"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [
+				{
+					id: "139A69088F8112BE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "78A6FDF61E649B21"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			id: "38677E55D251D3F2"
+			tasks: [{
+				id: "6EBA079F5C17F7E6"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "1E1622AEEA5A5ED9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1715D01A57086525"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["38677E55D251D3F2"]
+			id: "23C3ED44F1D85825"
+			tasks: [{
+				id: "368864BE7266BF70"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "459A782D78AA9FB3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "37CF4396397B00D0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 1.5d
+			dependencies: ["23C3ED44F1D85825"]
+			id: "06CD96F530CA8BDF"
+			tasks: [{
+				id: "459181246686D3E3"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "51750E515A911F89"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6A130F58DAB214F4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			dependencies: ["06CD96F530CA8BDF"]
+			id: "320E0298EDB2330C"
+			tasks: [{
+				id: "4C1287FF431F8481"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "384FC9E3EB026275"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1D0B79084DFF328A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			id: "2147FCA8153233D1"
+			tasks: [{
+				id: "3E7FD1C00D4B2AC2"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "72FCFF50539F0261"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1BEAB4FB9AA247C0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			dependencies: ["38677E55D251D3F2"]
+			id: "55B24976A6374660"
+			tasks: [{
+				id: "37D7F324FB13CB32"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+			rewards: [
+				{
+					id: "47BFE61C049F519D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1041C330BB2E6CB5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 9.0d
+			dependencies: ["60B959058EB0CC58"]
+			id: "5973B4AA7C40AC0F"
+			tasks: [{
+				id: "25D0E34113A07BA0"
+				type: "item"
+				item: "mekanism:enriched_carbon"
+			}]
+			rewards: [
+				{
+					id: "1ED56D9459E744C6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "278DB5E7B2B6D4AB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 10.5d
+			dependencies: ["5973B4AA7C40AC0F"]
+			id: "7BD2DD5B921A0BF2"
+			tasks: [{
+				id: "5A47E37BFF8EFC61"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+			}]
+			rewards: [
+				{
+					id: "1152F65ACCD53125"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5445E95D2E13F96D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 12.0d
+			dependencies: ["7BD2DD5B921A0BF2"]
+			id: "6D1FC8AACF49D4DD"
+			tasks: [{
+				id: "606D07E9C198B304"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+			}]
+			rewards: [
+				{
+					id: "254A1A70480F8DE4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2F0D78A484EEED95"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 13.5d
+			dependencies: ["6D1FC8AACF49D4DD"]
+			id: "2480ECE2FBCA2A4F"
+			tasks: [{
+				id: "7BF37EC68B6E2110"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+			}]
+			rewards: [
+				{
+					id: "438B8E79777F360F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5D66C7CEA43315C7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 10.5d
+			dependencies: ["60B959058EB0CC58"]
+			id: "3D115895A5231A24"
+			tasks: [{
+				id: "150B1B6B275EE49A"
+				type: "item"
+				item: "mekanism:enriched_gold"
+			}]
+			rewards: [
+				{
+					id: "1B33D2BE041374EA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "42E798E320E4B876"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 12.0d
+			dependencies: ["3D115895A5231A24"]
+			id: "4DDEB78B9DB1DED7"
+			tasks: [{
+				id: "2E4D487B1950537A"
+				type: "item"
+				item: "mekanism:enriched_tin"
+			}]
+			rewards: [
+				{
+					id: "102AE8666AC6C721"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "272A7B7989D40AD2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

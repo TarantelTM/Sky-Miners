@@ -1,0 +1,385 @@
+{
+    "items": [
+	{
+      "item": "ftbquests:book",
+      "count": 1,
+      "Slot": "mainhand"
+    },
+	{
+      "item": "minecraft:oak_sapling",
+      "count": 1
+    },
+        {
+            "item": "akashictome:tome",
+            "nbt": {
+                "akashictome:is_morphing": 1,
+                "akashictome:data": {
+                    "industrialforegoing": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "IndustrialForegoing's Manual"
+                            },
+                            "patchouli:book": "industrialforegoing:industrial_foregoing"
+                        }
+                    },
+                    "psi": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Encylopaedia Psionica"
+                            },
+                            "patchouli:book": "psi:encyclopaedia_psionica"
+                        }
+                    },
+                    "tconstruct": {
+                        "id": "tconstruct:materials_and_you",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Materials And You"
+                            }
+                        }
+                    },
+                    "theoneprobe": {
+                        "id": "theoneprobe:probenote",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Probe Settings"
+                            }
+                        }
+                    },
+                    "resourcefulbees": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Fifty Shades of Bees"
+                            },
+                            "patchouli:book": "resourcefulbees:fifty_shades_of_bees",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Fifty Shades of Bees\"}]}"
+                            }
+                        }
+                    },
+                    "astralsorcery": {
+                        "id": "astralsorcery:tome",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Astral Tome"
+                            }
+                        }
+                    },
+                    "ftbquests": {
+                        "id": "ftbquests:book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Quest Book"
+                            }
+                        }
+                    },
+                    "mana-and-artifice": {
+                        "id": "mana-and-artifice:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Codex Arcana"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Codex Arcana\"}]}"
+                            }
+                        }
+                    },
+                    "immersiveengineering": {
+                        "id": "immersiveengineering:manual",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Engineer's Manual"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Engineer's Manual\"}]}"
+                            }
+                        }
+                    },
+                    "woot": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Woot Guide"
+                            },
+                            "patchouli:book": "woot:wootguide",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Woot Guide\"}]}"
+                            }
+                        }
+                    },
+                    "eidolon": {
+                        "id": "eidolon:codex",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Ars Ecclesia"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Ars Ecclesia\"}]}"
+                            }
+                        }
+                    },
+                    "allthemodium": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Allthemodium"
+                            },
+                            "patchouli:book": "allthemodium:allthemodium",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Allthemodium\"}]}"
+                            }
+                        }
+                    },
+                    "silentgear": {
+                        "id": "silentgear:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Silent Gear Guide"
+                            }
+                        }
+                    },
+                    "botania": {
+                        "id": "botania:lexicon",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Lexica Botania"
+                            },
+                            "botania:elven_unlock": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Lexica Botania\"}]}"
+                            },
+                            "akashictome:is_morphing": 1
+                        }
+                    },
+                    "thermal": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Thermalpedia"
+                            },
+                            "patchouli:book": "thermal:guidebook"
+                        }
+                    },
+                    "rftoolsbase": {
+                        "id": "rftoolsbase:manual",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Technology Guide"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Technology Guide\"}]}"
+                            }
+                        }
+                    },
+                    "integratedtunnels": {
+                        "id": "integrateddynamics:on_the_dynamics_of_integration",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "On The Dynamics Of Integration"
+                            }
+                        }
+                    },
+                    "powah": {
+                        "id": "powah:book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Manual (Powah!)"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Manual (Powah!)\"}]}"
+                            }
+                        }
+                    },
+                    "pneumaticcraft": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "PNC:RManual"
+                            },
+                            "patchouli:book": "pneumaticcraft:book"
+                        }
+                    },
+                    "naturesaura": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Book Of Natural Aura"
+                            },
+                            "patchouli:book": "naturesaura:book"
+                        }
+                    },
+                    "pedestals": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Pedestals"
+                            },
+                            "patchouli:book": "pedestals:manual",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Pedestals\"}]}"
+                            }
+                        }
+                    },
+                    "engineersdecor": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Engineer's Decor"
+                            },
+                            "patchouli:book": "engineersdecor:engineersdecor_manual"
+                        }
+                    },
+                    "mahoutsukai": {
+                        "id": "mahoutsukai:guidebook",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Mahou Tsukai Knowledge Compendium"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Mahou Tsukai Knowledge Compendium\"}]}"
+                            }
+                        }
+                    },
+                    "solcarrot": {
+                        "id": "solcarrot:food_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Food Book"
+                            },
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Food Book\"}]}"
+                            }
+                        }
+                    },
+                    "modularrouters": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Modular Routers Manual"
+                            },
+                            "patchouli:book": "modularrouters:book"
+                        }
+                    },
+                    "ars_nouveau": {
+                        "id": "ars_nouveau:worn_notebook",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Worn Note book"
+                            }
+                        }
+                    },
+                    "bloodmagic": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Sanguine Scientiem"
+                            },
+                            "patchouli:book": "bloodmagic:guide",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Sanguine Scientiem\"}]}"
+                            }
+                        }
+                    },
+                    "mysticalagriculture": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Mystical Agriculture"
+                            },
+                            "patchouli:book": "mysticalagriculture:guide",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Mystical Agriculture\"}]}"
+                            }
+                        }
+                    },
+                    "cyclic": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Cyclic Guidebook"
+                            },
+                            "patchouli:book": "cyclic:cyclic_guide_book",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cyclic Guidebook\"}]}"
+                            }
+                        }
+                    },
+					"advancedperipherals": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Advanced Peripherals"
+                            },
+                            "patchouli:book": "advancedperipherals:guide_book",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Advanced Peripherals\"}]}"
+                            }
+                        }
+                    },
+					"exnihiloauto": {
+                        "id": "patchouli:guide_book",
+                        "Count": 1,
+                        "tag": {
+                            "akashictome:displayName": {
+                                "text": "Ex Nihilo: Automation"
+                            },
+                            "patchouli:book": "exnihiloauto:docs",
+                            "akashictome:is_morphing": 1,
+                            "display": {
+                                "Name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Ex Nihilo: Automation\"}]}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

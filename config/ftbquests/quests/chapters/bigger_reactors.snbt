@@ -1,0 +1,287 @@
+{
+	id: "2BF92B30FA252605"
+	group: "5C8D26BB4F675A0D"
+	order_index: 0
+	filename: "bigger_reactors"
+	title: "Bigger Reactors"
+	icon: "biggerreactors:reactor_terminal"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["1678AFF3FDCD9C52"]
+			size: 3.0d
+			id: "68C91E1AE1A92E20"
+			tasks: [{
+				id: "70E4321A97745F8E"
+				type: "item"
+				item: "biggerreactors:reactor_casing"
+				count: 37L
+			}]
+			rewards: [
+				{
+					id: "338EA7A7812F09EC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0E00A894A2AD7BC8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["0EB9F9DA1634D442"]
+			size: 1.5d
+			id: "1678AFF3FDCD9C52"
+			tasks: [{
+				id: "3998B0C17A629304"
+				type: "item"
+				item: "biggerreactors:graphite_ingot"
+			}]
+			rewards: [
+				{
+					id: "2C80201CA7E5A397"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5EA28585AD9650DB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			size: 1.5d
+			id: "0EB9F9DA1634D442"
+			tasks: [{
+				id: "5A8FCC4B2722AB6E"
+				type: "item"
+				item: "biggerreactors:yellorium_ingot"
+			}]
+			rewards: [
+				{
+					id: "20458C2D2599BB6D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5BD7D910931E57D4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.8571428571428683d
+			y: -3.017857142857146d
+			dependencies: ["213D344C32957B97"]
+			size: 1.5d
+			id: "5C943F1D1C9BCD95"
+			tasks: [{
+				id: "2F347D57AEFCC7DB"
+				type: "item"
+				item: "biggerreactors:cyanite_reprocessor"
+			}]
+			rewards: [
+				{
+					id: "570A68CE2341F78C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "545525D8CD189B80"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.780612244897945d
+			y: -4.7500000000000036d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "49B81AFC14FB24B7"
+			tasks: [{
+				id: "1AA6FD7003F83782"
+				type: "item"
+				item: "biggerreactors:reactor_access_port"
+			}]
+			rewards: [
+				{
+					id: "311673CCC8B094C3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4E509E8EE6EC49BB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.1428571428571317d
+			y: -4.910714285714285d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "7204A651EE3473CB"
+			tasks: [{
+				id: "640C3DDAC0B4DE24"
+				type: "item"
+				item: "biggerreactors:reactor_control_rod"
+			}]
+			rewards: [
+				{
+					id: "658F77AEBAE8BAEA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "142150FBD705EE1D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.2857142857142847d
+			y: -1.375d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "502F663B48E68211"
+			tasks: [{
+				id: "14B88A348ADED6D6"
+				type: "item"
+				item: "biggerreactors:reactor_power_tap"
+			}]
+			rewards: [
+				{
+					id: "668D4630AC014406"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "03842F165E1FEA71"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.005102040816311d
+			y: -5.484693877551024d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "3B6EE35C58427A47"
+			tasks: [{
+				id: "0D439B653978C8EB"
+				type: "item"
+				item: "biggerreactors:reactor_glass"
+			}]
+			rewards: [
+				{
+					id: "24F52CA7AFD0F732"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "709C1A228CEF020C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -2.9846938775510097d
+			y: -0.4846938775510239d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "596D12B00C8BA1F0"
+			tasks: [{
+				id: "60AEBD018A6B5BDD"
+				type: "item"
+				item: "biggerreactors:reactor_terminal"
+			}]
+			rewards: [
+				{
+					id: "71FD88AA540FF5D0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "250D89714083E309"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -5.005102040816318d
+			y: -1.0561224489795933d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "6D25DB100CCCC49B"
+			tasks: [{
+				id: "66673BF614652DEB"
+				type: "item"
+				item: "biggerreactors:reactor_fuel_rod"
+			}]
+			rewards: [
+				{
+					id: "4D1599075A420BBA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "66878054B07799B1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -0.2857142857142776d
+			y: -3.017857142857146d
+			dependencies: ["68C91E1AE1A92E20"]
+			size: 1.5d
+			id: "213D344C32957B97"
+			tasks: [{
+				id: "614ADAC97FC2A12B"
+				type: "item"
+				item: "biggerreactors:cyanite_ingot"
+			}]
+			rewards: [
+				{
+					id: "0738E28B40C35AB4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2C45F827D3A722AC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

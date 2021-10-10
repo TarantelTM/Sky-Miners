@@ -1,0 +1,3 @@
+identifier = Update_News
+title = Update News
+allowesc = true

@@ -1,0 +1,1212 @@
+{
+	id: "1EB2011B4BF5F297"
+	group: "222360AECD53625D"
+	order_index: 0
+	filename: "ex_compressum"
+	title: "Ex Compressum"
+	icon: {
+		id: "excompressum:compressed_hammer_diamond"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "3311A189A2F1EDC2"
+			tasks: [{
+				id: "3C3DF1B9848F307E"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13ECA22A12A79531"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "31FB08FDA9423086"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["3311A189A2F1EDC2"]
+			id: "73E83327166C2085"
+			tasks: [{
+				id: "185C5C93012BA8A8"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4189E629989766F3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5C3840E4D0260F9F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["73E83327166C2085"]
+			id: "31BAD529B6394077"
+			tasks: [{
+				id: "56446612A600742B"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25E6AD63314591A2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "51B8E7AB1222CC79"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["31BAD529B6394077"]
+			id: "6BE9D00483EC6694"
+			tasks: [{
+				id: "1506626D98227B85"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10C45E1B6190EC58"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3F127C2266A6383B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["6BE9D00483EC6694"]
+			id: "02878C5B11B0DA6B"
+			tasks: [{
+				id: "32E7A1B1B53DD828"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0098ECC56C3F1278"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1CEE3DBF61010A62"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["02878C5B11B0DA6B"]
+			id: "574493ABE7BC1CF1"
+			tasks: [{
+				id: "5818681503ECC0A8"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_netherite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BCBDCF538F30A01"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2F6B3015D91E42CF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "06AD4B8132975010"
+			tasks: [{
+				id: "459AD3E727433537"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71D7B27261E5FCD2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "79020062430EBD92"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "4CE7BC6B3B380F1A"
+			tasks: [{
+				id: "7FEAC9671A2C276A"
+				type: "item"
+				item: "excompressum:compressed_cobblestone"
+			}]
+			rewards: [
+				{
+					id: "12617892EDAEBF37"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "320777C89C3E5943"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["4CE7BC6B3B380F1A"]
+			id: "00A644E0236E75A2"
+			tasks: [{
+				id: "0427B7953DB13B41"
+				type: "item"
+				item: "excompressum:compressed_gravel"
+			}]
+			rewards: [
+				{
+					id: "3CCA516F00C5ED45"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5333F579F4CB0993"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["00A644E0236E75A2"]
+			id: "6AC182BB20AE61B2"
+			tasks: [{
+				id: "7029DBBD6FC0A7BE"
+				type: "item"
+				item: "excompressum:compressed_sand"
+			}]
+			rewards: [
+				{
+					id: "6E0BB368C2BEE486"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3B72529F181FC7A0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["6AC182BB20AE61B2"]
+			id: "642BA6A5A5BAA6ED"
+			tasks: [{
+				id: "2D7D2EBD85B2591D"
+				type: "item"
+				item: "excompressum:compressed_dust"
+			}]
+			rewards: [
+				{
+					id: "536034C30B98324C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "089EB17A4230AC31"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["4CE7BC6B3B380F1A"]
+			id: "3051500D2D72F737"
+			tasks: [{
+				id: "3D71A9AFC91A8355"
+				type: "item"
+				item: "excompressum:compressed_dirt"
+			}]
+			rewards: [
+				{
+					id: "534EDB631C382026"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5A3CADA16553D791"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["3051500D2D72F737"]
+			id: "0092F2614FDC6DEF"
+			tasks: [{
+				id: "730F0E0396983C38"
+				type: "item"
+				item: "excompressum:compressed_flint"
+			}]
+			rewards: [
+				{
+					id: "13E2EE646F8BC546"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "31CF597502532419"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["3E165AFB9FBC7938"]
+			id: "1D3CC4BECEA57F32"
+			tasks: [{
+				id: "3FA9D45210214879"
+				type: "item"
+				item: "excompressum:compressed_nether_gravel"
+			}]
+			rewards: [
+				{
+					id: "1F3B1CF187F16436"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "070D0ABC296C4457"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["31F21366EC5CF21A"]
+			id: "2F9A41F974FDC9D9"
+			tasks: [{
+				id: "3F5FBB026122D5F9"
+				type: "item"
+				item: "excompressum:compressed_ender_gravel"
+			}]
+			rewards: [
+				{
+					id: "32FE43558F807DF0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "088C66BE93F555AC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["3051500D2D72F737"]
+			id: "3AC20F9F49A55B04"
+			tasks: [{
+				id: "0451D2C2538F1E6C"
+				type: "item"
+				item: "excompressum:compressed_soul_sand"
+			}]
+			rewards: [
+				{
+					id: "6C6FA323C6C61D3B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0DC7BBA5D47A7250"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["3AC20F9F49A55B04"]
+			id: "3E165AFB9FBC7938"
+			tasks: [{
+				id: "4A9EEC4307DA597D"
+				type: "item"
+				item: "excompressum:compressed_netherrack"
+			}]
+			rewards: [
+				{
+					id: "5196D97410C811E1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "372D7F2C14DAD6EA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["1A283DBE60860E93"]
+			id: "31F21366EC5CF21A"
+			tasks: [{
+				id: "6502920C38DDCB4D"
+				type: "item"
+				item: "excompressum:compressed_end_stone"
+			}]
+			rewards: [
+				{
+					id: "59C4A32D0FF1B98A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "37B400E921FA9C09"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["1E4E2A4C4EA60490"]
+			id: "2A3EF5D85354007A"
+			tasks: [{
+				id: "7B41FA931A5DBE26"
+				type: "item"
+				item: "excompressum:compressed_diorite"
+			}]
+			rewards: [
+				{
+					id: "66FE23C7CE29F682"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "65AA9176AFAA759F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["3AC20F9F49A55B04"]
+			id: "1A283DBE60860E93"
+			tasks: [{
+				id: "7C1F67CDB2AD92DF"
+				type: "item"
+				item: "excompressum:compressed_andesite"
+			}]
+			rewards: [
+				{
+					id: "4211D1D1EB0A9323"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "08792B26573BCF6E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["4B1D126089034CAE"]
+			id: "13070F0E5C55D890"
+			tasks: [{
+				id: "4DE6CE855B1751DD"
+				type: "item"
+				item: "excompressum:compressed_granite"
+			}]
+			rewards: [
+				{
+					id: "7EC140FBDC5F321C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2F0A771DEA28CE40"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["1A283DBE60860E93"]
+			id: "4B1D126089034CAE"
+			tasks: [{
+				id: "3852AEA69AF3124F"
+				type: "item"
+				item: "excompressum:compressed_crushed_andesite"
+			}]
+			rewards: [
+				{
+					id: "54925D57D9984677"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0F967C2B3D336047"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["13070F0E5C55D890"]
+			id: "1E4E2A4C4EA60490"
+			tasks: [{
+				id: "6673C007607E0428"
+				type: "item"
+				item: "excompressum:compressed_crushed_granite"
+			}]
+			rewards: [
+				{
+					id: "58951C7324D25E45"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5D23F98D03B90379"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["2A3EF5D85354007A"]
+			id: "7328C9DA3D9BF07F"
+			tasks: [{
+				id: "550CA32C0F991DDB"
+				type: "item"
+				item: "excompressum:compressed_crushed_diorite"
+			}]
+			rewards: [
+				{
+					id: "5391C80BFADFE2C3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "70211D838B44EB63"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			id: "6159160C207B7F6E"
+			tasks: [{
+				id: "74AC02635D069FD7"
+				type: "item"
+				item: "excompressum:oak_heavy_sieve"
+			}]
+			rewards: [
+				{
+					id: "44D29835A0DD2297"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1A641B406D47919F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			id: "18D267942F30C804"
+			tasks: [{
+				id: "60B8CD6A477D2AAF"
+				type: "item"
+				item: "excompressum:oak_crucible"
+			}]
+			rewards: [
+				{
+					id: "013DCE202B7FCB4B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "647BBA1ABBD4CD8D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.335714285714303d
+			y: 1.442857142857143d
+			dependencies: ["17F240C2C4352210"]
+			id: "43E01474DD8DB68C"
+			tasks: [{
+				id: "323DE594B815E0C3"
+				type: "item"
+				item: "excompressum:auto_compressor"
+			}]
+			rewards: [
+				{
+					id: "650782B0241BBCFE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4DA291F2EB26A702"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.835714285714303d
+			y: 1.442857142857143d
+			dependencies: ["0BD4FAB30F44D198"]
+			id: "17F240C2C4352210"
+			tasks: [{
+				id: "7101E2BE5484FE68"
+				type: "item"
+				item: "excompressum:auto_hammer"
+			}]
+			rewards: [
+				{
+					id: "0FF1076CBD61E04B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1FD20FAF54F7183D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.335714285714303d
+			y: 1.442857142857143d
+			dependencies: ["6BB0BA98E394997F"]
+			id: "6576A7B518A141EA"
+			tasks: [{
+				id: "0450CB26A3FA855E"
+				type: "item"
+				item: "excompressum:auto_compressed_hammer"
+			}]
+			rewards: [
+				{
+					id: "4D6B65AF6CCAFA06"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "29A3B875A49EE82A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -12.335714285714303d
+			y: 1.442857142857143d
+			id: "0BD4FAB30F44D198"
+			tasks: [{
+				id: "061BD27075BF9D9E"
+				type: "item"
+				item: "excompressum:auto_sieve"
+			}]
+			rewards: [
+				{
+					id: "7A9C73A3180A65A4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "74FD8B7C4C0FC792"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.835714285714303d
+			y: 1.442857142857143d
+			dependencies: ["43E01474DD8DB68C"]
+			id: "6BB0BA98E394997F"
+			tasks: [{
+				id: "5FAE53E2B3C9AA33"
+				type: "item"
+				item: "excompressum:auto_heavy_sieve"
+			}]
+			rewards: [
+				{
+					id: "0DA606B2BEE41F50"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1B25FA5507CA573A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 0.0d
+			id: "2562C82783CC4EC5"
+			tasks: [
+				{
+					id: "5EB233C9D4BA6027"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							items: [
+								{
+									id: "forbidden_arcanus:mysterywood_log"
+									Count: 1b
+								}
+								{
+									id: "forbidden_arcanus:cherrywood_log"
+									Count: 1b
+								}
+								{
+									id: "minecraft:oak_log"
+									Count: 1b
+								}
+								{
+									id: "minecraft:spruce_log"
+									Count: 1b
+								}
+								{
+									id: "minecraft:birch_log"
+									Count: 1b
+								}
+								{
+									id: "minecraft:jungle_log"
+									Count: 1b
+								}
+								{
+									id: "minecraft:acacia_log"
+									Count: 1b
+								}
+								{
+									id: "minecraft:dark_oak_log"
+									Count: 1b
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Any Log\"}"
+							}
+						}
+					}
+					count: 10L
+				}
+				{
+					id: "485AF2C38A4E3DD2"
+					type: "item"
+					item: "craftingstation:crafting_station"
+				}
+			]
+			rewards: [
+				{
+					id: "39EC48B963C81E1E"
+					type: "item"
+					team_reward: false
+					item: "minecraft:oak_log"
+					count: 64
+				}
+				{
+					id: "51A793CD0A9DCE18"
+					type: "item"
+					team_reward: false
+					item: "minecraft:oak_sapling"
+					count: 64
+				}
+				{
+					id: "614B6E39706D343B"
+					type: "random"
+					team_reward: false
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["2562C82783CC4EC5"]
+			id: "21D0BC7B6201DBF8"
+			tasks: [
+				{
+					id: "421CFD4B0D389EA9"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:crook_wood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "610DFFF89FFAA5C5"
+					type: "item"
+					item: "exnihilosequentia:silkworm"
+					count: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "64D1FAE9FA3A7C5F"
+					type: "item"
+					team_reward: false
+					item: {
+						id: "exnihilosequentia:crook_diamond"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Name: "[{\"text\":\"Sky Crook\"}]"
+							}
+							Enchantments: [{
+								lvl: 8
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "15B8BE49C4ECA161"
+					type: "random"
+					team_reward: false
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: ["21D0BC7B6201DBF8"]
+			id: "151067F29B0F7CEF"
+			tasks: [{
+				id: "6BF0ED6E5492B646"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [
+				{
+					id: "3114BD4E6639FA37"
+					type: "item"
+					team_reward: false
+					item: "minecraft:white_wool"
+					count: 3
+				}
+				{
+					id: "6FDCA4C19CB0D3CD"
+					type: "random"
+					team_reward: false
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["151067F29B0F7CEF"]
+			id: "247661B591CA96BA"
+			tasks: [{
+				id: "24FAFCBD7047D614"
+				type: "item"
+				item: "exnihilosequentia:mesh_string"
+			}]
+			rewards: [
+				{
+					id: "0C513F7028C31542"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+				{
+					id: "23FB53ED00749361"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:mesh_netherite"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Name: "[{\"text\":\"Sky Mesh\"}]"
+							}
+							Enchantments: [
+								{
+									lvl: 8
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 8
+									id: "minecraft:fortune"
+								}
+							]
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: [
+				"Hold your Crouch Key and do a rightclick on Grass/Dirt to get the Pebbles!"
+				"Combine 4 Pebbles in your Inventory or Crafting Table Craftingwindow"
+				"To get Cobblestone"
+				"use the Hammer on placed Cobblestone to get Gravel"
+			]
+			id: "53548FA0B0E283EC"
+			tasks: [
+				{
+					id: "7CA032D706CAB85D"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							items: [
+								{
+									id: "exnihilosequentia:warped_sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:crimson_sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:spruce_sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:jungle_sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:dark_oak_sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:birch_sieve"
+									Count: 1b
+								}
+								{
+									id: "exnihilosequentia:acacia_sieve"
+									Count: 1b
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Any Sieve\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "4C680620E4FA82DA"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:hammer_wood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62CF03A1E8F8523F"
+					type: "item"
+					item: "botania:pebble"
+					count: 4L
+				}
+				{
+					id: "618F0AA6F1E9CD95"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+			]
+			rewards: [
+				{
+					id: "1666776B3CABC3C9"
+					type: "item"
+					item: {
+						id: "excompressum:compressed_hammer_netherite"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Name: "[{\"text\":\"Sky Hammer\"}]"
+							}
+							Enchantments: [{
+								lvl: 8
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "5F3C90F056E5C4A5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: [
+				"3311A189A2F1EDC2"
+				"73E83327166C2085"
+				"31BAD529B6394077"
+				"6BE9D00483EC6694"
+				"02878C5B11B0DA6B"
+				"574493ABE7BC1CF1"
+				"06AD4B8132975010"
+				"4CE7BC6B3B380F1A"
+				"00A644E0236E75A2"
+				"6AC182BB20AE61B2"
+				"642BA6A5A5BAA6ED"
+				"3051500D2D72F737"
+				"0092F2614FDC6DEF"
+				"1D3CC4BECEA57F32"
+				"2F9A41F974FDC9D9"
+				"3AC20F9F49A55B04"
+				"3E165AFB9FBC7938"
+				"31F21366EC5CF21A"
+				"2A3EF5D85354007A"
+				"1A283DBE60860E93"
+				"13070F0E5C55D890"
+				"4B1D126089034CAE"
+				"1E4E2A4C4EA60490"
+				"7328C9DA3D9BF07F"
+				"2562C82783CC4EC5"
+				"21D0BC7B6201DBF8"
+				"151067F29B0F7CEF"
+				"247661B591CA96BA"
+				"53548FA0B0E283EC"
+			]
+			id: "084A89358E6732D9"
+			tasks: [{
+				id: "16A42B5BACB309DF"
+				type: "checkmark"
+				title: "Mjölnir"
+			}]
+			rewards: [{
+				id: "7E7097CAA1694BA5"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_netherite"
+					Count: 1b
+					tag: {
+						RepairCost: 1023
+						Damage: 0
+						display: {
+							Name: "[{\"text\":\"Mjoelnir\"}]"
+						}
+						Enchantments: [
+							{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:channeling"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fire_aspect"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:knockback"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:bane_of_arthropods"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:looting"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:sweeping"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:impaling"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:loyalty"
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

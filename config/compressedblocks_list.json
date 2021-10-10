@@ -1,0 +1,642 @@
+[
+  {
+    "blockName": "stone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "granite",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "diorite",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "andesite",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "dirt",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "grass_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "coarse_dirt",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "crimson_nylium",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "warped_nylium",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "cobblestone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "mossy_cobblestone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "clay",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "sand",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "red_sand",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gravel",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "sandstone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "red_sandstone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "coal_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "iron_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gold_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "nether_gold_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "nether_quartz_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "lapis_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "emerald_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "redstone_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "diamond_ore",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "iron_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gold_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "diamond_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "lapis_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "emerald_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "redstone_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "coal_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "obsidian",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "slime_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "bricks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "stone_bricks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "netherrack",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "nether_bricks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "red_nether_bricks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "nether_wart_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "warped_wart_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "soul_sand",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "soul_soil",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "end_stone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "end_stone_bricks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "prismarine",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "prismarine_bricks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "dark_prismarine",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "blackstone",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "white_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "orange_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "magenta_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "light_blue_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "yellow_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "lime_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "pink_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gray_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "light_gray_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "cyan_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "purple_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "blue_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "brown_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "green_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "red_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "black_wool",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "white_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "orange_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "magenta_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "light_blue_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "yellow_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "lime_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "pink_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gray_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "light_gray_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "cyan_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "purple_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "blue_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "brown_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "green_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "red_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "black_terracotta",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "white_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "orange_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "magenta_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "light_blue_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "yellow_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "lime_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "pink_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gray_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "light_gray_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "cyan_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "purple_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "blue_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "brown_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "green_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "red_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "black_concrete",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "rotten_flesh_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "flint_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "gunpowder_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "netherite_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "ancient_debris",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "oak_log",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "spruce_log",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "birch_log",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "jungle_log",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "acacia_log",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "dark_oak_log",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "warped_stem",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "crimson_stem",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "oak_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "spruce_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "birch_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "jungle_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "acacia_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "dark_oak_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "warped_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "crimson_planks",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "purpur_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "purpur_pillar",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "basalt",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "polished_basalt",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "quartz_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "hay_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "glass",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  },
+  {
+    "blockName": "magma_block",
+    "isEnabled": true,
+    "maxCompressionLevel": 9
+  }
+]

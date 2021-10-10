@@ -1,0 +1,537 @@
+{
+	id: "0611C7C07D23F750"
+	group: "222360AECD53625D"
+	order_index: 1
+	filename: "usrg"
+	title: "USRG"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.961904761904755d
+			y: -3.971428571428561d
+			size: 3.0d
+			id: "3414BA5EE192792A"
+			tasks: [{
+				id: "038FDF93A2B6DD1F"
+				type: "item"
+				item: "usrg:cobblegenerator"
+			}]
+			rewards: [
+				{
+					id: "19B6C2DE65BB1A83"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0D463173C82435C5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.585714285714289d
+			y: -2.6857142857142833d
+			dependencies: ["3414BA5EE192792A"]
+			id: "2760F92A04D76A0C"
+			tasks: [{
+				id: "63B1D29E13EDB254"
+				type: "item"
+				item: "usrg:claygenerator"
+			}]
+			rewards: [
+				{
+					id: "3E878C3660A27279"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "15F7B4218501AB3B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -5.957142857142863d
+			y: -3.9142857142857146d
+			dependencies: ["3414BA5EE192792A"]
+			id: "43C01C92E9721349"
+			tasks: [{
+				id: "4D05A93E68D2F6BB"
+				type: "item"
+				item: "usrg:dirtgenerator"
+			}]
+			rewards: [
+				{
+					id: "5E83C1C1A0DC1497"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7DC19E9B6DD0C61E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -5.328571428571429d
+			y: -0.6857142857142762d
+			dependencies: ["0FCBB2ED7B25EFE9"]
+			id: "501CA21364606494"
+			tasks: [{
+				id: "675B56485507887E"
+				type: "item"
+				item: "usrg:endgenerator"
+			}]
+			rewards: [
+				{
+					id: "49B75058D415123E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "150CCF1C73EEA3D0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.928571428571431d
+			y: 0.2857142857142989d
+			dependencies: ["53A55A597759C397"]
+			id: "723995DD6CFD5220"
+			tasks: [{
+				id: "14EF9E0477BC7BA2"
+				type: "item"
+				item: "usrg:glowstonegenerator"
+			}]
+			rewards: [
+				{
+					id: "2B4ECF51837EC85E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "14E4791F22CC8C34"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.44285714285715d
+			y: -3.9142857142857146d
+			dependencies: ["3CDC1EDF5EB05865"]
+			id: "15C8FB392E907D22"
+			tasks: [{
+				id: "3C4464C87649B3FC"
+				type: "item"
+				item: "usrg:fungusgenerator"
+			}]
+			rewards: [
+				{
+					id: "4AFC2A9F806BE210"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "67FB9933F4A44056"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.728571428571435d
+			y: -3.9142857142857146d
+			dependencies: ["43C01C92E9721349"]
+			id: "3CDC1EDF5EB05865"
+			tasks: [{
+				id: "46BD682232C7738E"
+				type: "item"
+				item: "usrg:grassgenerator"
+			}]
+			rewards: [
+				{
+					id: "2F480126AD1B3474"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7BA7A5CCFE7D30DB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.957142857142863d
+			y: -1.942857142857136d
+			dependencies: ["3414BA5EE192792A"]
+			id: "34A8F2F0E2D78728"
+			tasks: [{
+				id: "5F73EBB4E4FCFE23"
+				type: "item"
+				item: "usrg:gravelgenerator"
+			}]
+			rewards: [
+				{
+					id: "65931C18BECAF15F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6A5FC131EBF195F5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -5.1571428571428655d
+			y: -6.0d
+			dependencies: ["380BA5ED30385F02"]
+			id: "0DB4B62B88B6C646"
+			tasks: [{
+				id: "485E6F4857A48F1F"
+				type: "item"
+				item: "usrg:icegenerator"
+			}]
+			rewards: [
+				{
+					id: "55D71A5ECE1AC1E2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3F83BD4FC4E2F233"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.271428571428579d
+			y: 0.3142857142857238d
+			dependencies: ["129061BBAEEB1103"]
+			id: "53A55A597759C397"
+			tasks: [{
+				id: "52E8B8302CD88A1F"
+				type: "item"
+				item: "usrg:nethergenerator"
+			}]
+			rewards: [
+				{
+					id: "5C062B2F1A5C48FF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7CBFE7DC7D70F56A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.128571428571433d
+			y: -0.6857142857142833d
+			dependencies: ["501CA21364606494"]
+			id: "7F1E5E07DFB78796"
+			tasks: [{
+				id: "0735668DCD7F852A"
+				type: "item"
+				item: "usrg:obsidiangenerator"
+			}]
+			rewards: [
+				{
+					id: "0EEED07674F1CC06"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5FDE52C0BA02C270"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -1.6857142857142833d
+			dependencies: ["2760F92A04D76A0C"]
+			id: "6EDAF2804E52AABD"
+			tasks: [{
+				id: "156AE867BCB3A247"
+				type: "item"
+				item: "usrg:quartzgenerator"
+			}]
+			rewards: [
+				{
+					id: "51AE0D7F67DF7B99"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "623E08B67B62A981"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -8.01428571428572d
+			y: 1.4285714285714306d
+			dependencies: ["129061BBAEEB1103"]
+			id: "2ED35EF130ED244A"
+			tasks: [{
+				id: "293F9AE6DEE9B0CA"
+				type: "item"
+				item: "usrg:redstonegenerator"
+			}]
+			rewards: [
+				{
+					id: "2379CD461C5C9A89"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4C1EA9D0E3F568D5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.957142857142863d
+			y: -0.7428571428571331d
+			dependencies: ["34A8F2F0E2D78728"]
+			id: "23202214EDA8E69B"
+			tasks: [{
+				id: "2C5713B82A567454"
+				type: "item"
+				item: "usrg:sandgenerator"
+			}]
+			rewards: [
+				{
+					id: "389DFB652674C4D0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "161C77FAD4433BB0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.128571428571433d
+			y: -5.171428571428571d
+			dependencies: ["3414BA5EE192792A"]
+			id: "380BA5ED30385F02"
+			tasks: [{
+				id: "75989DF9F1B3E68E"
+				type: "item"
+				item: "usrg:snowgenerator"
+			}]
+			rewards: [
+				{
+					id: "14B1E4B873E046A4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7C8F5732E778D956"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.814285714285717d
+			y: -0.7428571428571402d
+			dependencies: ["23202214EDA8E69B"]
+			id: "0FCBB2ED7B25EFE9"
+			tasks: [{
+				id: "08699A79A3D810D3"
+				type: "item"
+				item: "usrg:soulgenerator"
+			}]
+			rewards: [
+				{
+					id: "15E2EF15876CB780"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "117F0D78C715E84C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -8.042857142857152d
+			y: 2.3714285714285808d
+			dependencies: ["2ED35EF130ED244A"]
+			id: "2110D42D8B461092"
+			tasks: [{
+				id: "45692D843B0A4909"
+				type: "item"
+				item: "usrg:oregenerator"
+			}]
+			rewards: [
+				{
+					id: "0370B3B1B889617E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "14AD8DA67A3DB2F7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -0.1714285714285495d
+			y: -3.828571428571422d
+			dependencies: [
+				"6EDAF2804E52AABD"
+				"2760F92A04D76A0C"
+				"3414BA5EE192792A"
+				"380BA5ED30385F02"
+				"0DB4B62B88B6C646"
+				"43C01C92E9721349"
+				"3CDC1EDF5EB05865"
+				"15C8FB392E907D22"
+				"2110D42D8B461092"
+				"2ED35EF130ED244A"
+				"129061BBAEEB1103"
+				"23202214EDA8E69B"
+				"34A8F2F0E2D78728"
+				"0FCBB2ED7B25EFE9"
+				"53A55A597759C397"
+				"501CA21364606494"
+				"723995DD6CFD5220"
+				"7F1E5E07DFB78796"
+				"683C144BC9EE02CF"
+				"0E8B8C3FE91CA715"
+			]
+			size: 3.0d
+			id: "048A16E53E1B54DB"
+			tasks: [{
+				id: "1BC1CEFB34CFC090"
+				type: "item"
+				item: "usrg:dyegenerator"
+			}]
+			rewards: [
+				{
+					id: "6BAF353E23B805E5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3791C6969D33A4A0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.9857142857142875d
+			y: 0.34285714285714874d
+			dependencies: ["23202214EDA8E69B"]
+			id: "129061BBAEEB1103"
+			tasks: [{
+				id: "57643D1774AA4BF2"
+				type: "item"
+				item: "usrg:dustgenerator"
+			}]
+			rewards: [
+				{
+					id: "21545139AC918FFA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "55A2B2D8C86BE6CD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -2.8142857142857167d
+			y: -0.6857142857142833d
+			dependencies: ["7F1E5E07DFB78796"]
+			id: "0E8B8C3FE91CA715"
+			tasks: [{
+				id: "53E05C60C1851324"
+				type: "item"
+				item: "usrg:endcrushedgenerator"
+			}]
+			rewards: [
+				{
+					id: "153ED0F4BBF9AE63"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0FFA9C2B08406963"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.728571428571435d
+			y: 0.34285714285714164d
+			dependencies: ["723995DD6CFD5220"]
+			id: "683C144BC9EE02CF"
+			tasks: [{
+				id: "7AD7F50E6E28F3C5"
+				type: "item"
+				item: "usrg:nethercrushedgenerator"
+			}]
+			rewards: [
+				{
+					id: "585EECC27BAD4AD1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6F996C1C0C4D5F97"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

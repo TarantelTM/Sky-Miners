@@ -1,0 +1,124 @@
+{
+	id: "742E3B735735C451"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "START"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "kubejs:textures/block/skyminersicon.png"
+		}
+	}
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:dirt"
+			x: -1.5d
+			y: -6.0d
+			id: "062B1BA4A6C2E479"
+			tasks: [{
+				id: "734885DFA72EE086"
+				type: "checkmark"
+				disable_toast: true
+			}]
+			rewards: [{
+				id: "5FDC313F96E5CD65"
+				type: "command"
+				team_reward: false
+				auto: "enabled"
+				command: "/skyblock create"
+				player_command: true
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			}
+			x: 0.0d
+			y: -6.0d
+			id: "15D374607119DDB7"
+			tasks: [{
+				id: "78C42A89466D6123"
+				type: "checkmark"
+				title: "Start"
+			}]
+			rewards: [
+				{
+					id: "71A16436E32F4247"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+				}
+				{
+					id: "14E72DE0B831CFD1"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "exnihiloauto:docs"
+						}
+					}
+				}
+				{
+					id: "379345BC964B3045"
+					type: "item"
+					item: "akashictome:tome"
+				}
+				{
+					id: "74151AB2D4A6D07E"
+					type: "item"
+					item: "silentgear:guide_book"
+				}
+				{
+					id: "384340478686664F"
+					type: "item"
+					item: {
+						id: "silentgear:blueprint_package"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "silentgear:starter_blueprints"
+							}
+						}
+					}
+				}
+				{
+					id: "0D8FC8B1217DE354"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "woot:wootguide"
+						}
+					}
+				}
+				{
+					id: "392B9B2A49457D9E"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "randomloot:randomloot_book"
+						}
+					}
+				}
+			]
+		}
+	]
+}

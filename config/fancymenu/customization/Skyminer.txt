@@ -1,0 +1,225 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = SkyMenu/wallpaperbetter.com_3840x2160.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  showname = false
+  orientation = mid-centered
+  crouching = true
+  x = 166
+  slim = true
+  actionid = 33784d34-2dcc-4f4b-870c-a72c0af61a971629917962956
+  action = addentity
+  y = -89
+  scale = 30
+  playername = %playername%
+  parrot = true
+}
+
+customization {
+  path = SkyMenu/skyminers.png
+  orientation = top-centered
+  x = -170
+  width = 332
+  action = addtexture
+  actionid = 0e9769e6-933e-4156-93ec-9284da4e9e321629936758825
+  y = 33
+  height = 100
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -100
+  width = 100
+  actionid = e31df66f-d0fa-4649-9677-9d29cd97fe531633780896473
+  action = addbutton
+  y = -20
+  label = Discord
+  value = https://discord.gg/gdeGNQHgfj
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -50
+  width = 100
+  actionid = b07e6aa3-7c2f-42d0-a27b-0673a5dff4bc1633780896516
+  action = addbutton
+  y = -20
+  label = %local:tarantel.devserver.key%
+  value = tarantel.yt
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = 0
+  width = 100
+  actionid = 4547705a-1e85-490f-8d8e-8a0fb26c753e1633780896559
+  action = addbutton
+  y = -20
+  label = %local:tarantel.addonsopen.key%
+  value = installextras
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 0
+  width = 70
+  actionid = 3f0a4dfc-aab1-43d4-9e07-bdd2c81fd1c41633780896603
+  action = addbutton
+  y = 35
+  label = %local:tarantel.updater.key%
+  value = update_scripts
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = false
+  x = 0
+  action = addwebtext
+  actionid = e9b2c189-8033-40c8-960c-06a3582dd1661632869125275
+  y = 22
+  scale = 1.0
+  alignment = left
+  url = https://tarantel.yt/updater/skyminers1/test.txt
+}
+
+customization {
+  orientation = top-left
+  shadow = true
+  x = 0
+  action = addtext
+  actionid = c30164c1-66ef-429d-a5b3-1edb966dd6601632869226694
+  y = 11
+  scale = 1.0
+  alignment = left
+  value = Current Version: 1.0.19b
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -153
+  width = 100
+  actionid = f72ad5f0-0409-43b6-8b48-0875ffbf649a1633780896713
+  action = addbutton
+  y = -20
+  label = %local:tarantel.patchnotesopen.key%
+  value = Update_News
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = reloadmenu
+  x = 53
+  width = 100
+  actionid = 513df603-da62-4ab0-9fd1-f6e548bcddb31633780896759
+  action = addbutton
+  y = -20
+  label = %local:tarantel.reload.key%
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -107
+  width = 100
+  actionid = 6927e8ba-131c-4583-a487-1d069b53cedf1633780896803
+  action = addbutton
+  y = 12
+  label = %local:tarantel.bisect.key%
+  value = https://www.bisecthosting.com/SkyMiners
+  height = 20
+}
+
+customization {
+  identifier = %id=0%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400322%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=604382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=502382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=376382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400298%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400346%
+  action = vanilla_button_visibility_requirements
+}
+

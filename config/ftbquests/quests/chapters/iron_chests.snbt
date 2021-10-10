@@ -1,0 +1,419 @@
+{
+	id: "048F0C5357DAFB5C"
+	group: "132AD1F5CE2CAC45"
+	order_index: 1
+	filename: "iron_chests"
+	title: "Iron Chests"
+	icon: "ironchest:crystal_chest"
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["271E9D37D0DD2051"]
+			id: "27DBDE140A2052A1"
+			tasks: [{
+				id: "64DC8D0A6B32004F"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "5ED4612AED363478"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "44504B2C45475E3B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["27DBDE140A2052A1"]
+			id: "0129AF19CF1C97AA"
+			tasks: [{
+				id: "1B8BEEF3398E8E4E"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [
+				{
+					id: "3891A66F7055B8FA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "630A4F1E1F29E5A2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["0129AF19CF1C97AA"]
+			id: "092A4D799CAD852E"
+			tasks: [{
+				id: "76D6491A5E70FFD5"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "5D6E5D0C4767FBD5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5C47A3AA2F345114"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["2E862BDB434F28DD"]
+			id: "271E9D37D0DD2051"
+			tasks: [{
+				id: "4167E2464F0AFEAD"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [
+				{
+					id: "13549B1726DB79E0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "08CC62E347A2B93F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["271E9D37D0DD2051"]
+			id: "3249BA72934C2AE1"
+			tasks: [{
+				id: "4B07D606E512BE45"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+			rewards: [
+				{
+					id: "1A3D5DDCB7D30247"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5A0174A224641613"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["74F24AF5750D78F5"]
+			id: "505203976299CCF7"
+			tasks: [{
+				id: "7FE75225F26E9EC6"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [
+				{
+					id: "7EFA9281BFE9690C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0443B4DAF175AB8A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["092A4D799CAD852E"]
+			id: "74F24AF5750D78F5"
+			tasks: [{
+				id: "51F7323E844F0A85"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [
+				{
+					id: "119C7E8E5D221C7B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "47069C0793372F92"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			id: "2E862BDB434F28DD"
+			tasks: [{
+				id: "0242B940E03081E8"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+			rewards: [
+				{
+					id: "69C974C1F55162B1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4120B2D4C61A2AB6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["1401C97B7712ED30"]
+			id: "1442CB622C99A1A2"
+			tasks: [{
+				id: "1267723A3E030E45"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4239A31093CABACA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "253EFE889F42F7E8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: [
+				"1442CB622C99A1A2"
+				"442F665536BE2B0C"
+			]
+			id: "4CCE5CACAD593D0A"
+			tasks: [{
+				id: "10DBB2F4C94FA728"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "14E6D629B3E6EAEB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "55B4D563758BFDDB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["76C757640FC380BF"]
+			id: "4D7B68EF34A4A98B"
+			tasks: [{
+				id: "3AEA509088D77E96"
+				type: "item"
+				item: "ironchest:copper_to_silver_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "720781C8A9A497F2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4F49524F48FF1EB9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["4D7B68EF34A4A98B"]
+			id: "442F665536BE2B0C"
+			tasks: [{
+				id: "3433123AFAD92C4E"
+				type: "item"
+				item: "ironchest:silver_to_gold_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "2350309B2C25CCD9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "25F3A9141D268078"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			id: "426C5BEF1472973F"
+			tasks: [{
+				id: "7C32AEE6EDB2FB94"
+				type: "item"
+				item: "ironchest:copper_to_iron_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "63C27862A8E75C28"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "04048E388FB2AA3E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["4CCE5CACAD593D0A"]
+			id: "0BFDC51CB68E1535"
+			tasks: [{
+				id: "64C3FEB4488F1887"
+				type: "item"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6880D0590788B726"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "04D44278419659DD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "1401C97B7712ED30"
+			tasks: [{
+				id: "0065DE50AAE7D5E4"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "09ACE4B70F86C7D5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6E23BC38CE4415A0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			id: "76C757640FC380BF"
+			tasks: [{
+				id: "2754C5030E214D89"
+				type: "item"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "11DB4EE1BBA179F2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "31F12A990D7E0698"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["4CCE5CACAD593D0A"]
+			id: "4377FA0F379F9CA6"
+			tasks: [{
+				id: "435AA157C111528C"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1930F7919DC0F79B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1792A668AB84BBC6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,157 @@
+type = menu
+
+customization-meta {
+  identifier = installextras
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 1.0
+  buttonaction = runcmd
+  label = %local:tarantel.install%
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = -160
+  width = 100
+  actionid = 0fd7d365-0408-43df-8e4d-3eab82f8b4bf1632865067725
+  action = addbutton
+  y = -12
+  delayappearance = true
+  value = [windows:powershell -Command "Invoke-WebRequest 'https://optifine.net/download?f=OptiFine_1.16.5_HD_U_G8.jar&=595dd55829473b1ff3fb1121f18de86d' -Outfile mods/OptiFine_1.16.5_HD_U_G8.jar"]; [linux:wget 'https://optifine.net/download?f=OptiFine_1.16.5_HD_U_G8.jar&=595dd55829473b1ff3fb1121f18de86d' -O 'mods/OptiFine_1.16.5_HD_U_G8.jar']
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 3.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -236
+  action = addtext
+  actionid = 98dd1e95-2345-4dd4-b65b-f41a93011a4c1632440045003
+  y = -69
+  delayappearance = true
+  alignment = left
+  value = %local:tarantel.extrainfo2%
+  delayappearanceeverytime = true
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 2.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -251
+  action = addtext
+  actionid = d32ed824-8a78-4999-84f8-64a55ce1723d1632440112732
+  y = -9
+  delayappearance = true
+  alignment = left
+  value = OPTIFINE
+  delayappearanceeverytime = true
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 1.0
+  buttonaction = opengui
+  label = %local:tarantel.back%
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 100
+  actionid = 12f2ef25-625a-49d7-9984-d165bd3538a41632865067918
+  action = addbutton
+  y = -20
+  delayappearance = true
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 3.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -237
+  action = addtext
+  actionid = 98dd1e95-2345-4dd4-b65b-f41a93011a4c1632440045003
+  y = 122
+  delayappearance = true
+  alignment = left
+  value = %local:tarantel.extrainfo3%
+  delayappearanceeverytime = true
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 3.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -237
+  action = addtext
+  actionid = 98dd1e95-2345-4dd4-b65b-f41a93011a4c1632440045003
+  y = 152
+  delayappearance = true
+  alignment = left
+  value = %local:tarantel.extrainfo4%
+  delayappearanceeverytime = true
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 3.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -306
+  action = addtext
+  actionid = 98dd1e95-2345-4dd4-b65b-f41a93011a4c1632440045003
+  y = -103
+  delayappearance = true
+  alignment = left
+  value = %local:tarantel.extrainfo1%
+  delayappearanceeverytime = true
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 2.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -52
+  action = addtext
+  actionid = d32ed824-8a78-4999-84f8-64a55ce1723d1632440112732
+  y = -9
+  delayappearance = true
+  alignment = left
+  value = %local:tarantel.optifine.info%
+  delayappearanceeverytime = true
+}
+

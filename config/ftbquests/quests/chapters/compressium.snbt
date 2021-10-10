@@ -1,0 +1,5438 @@
+{
+	id: "7053FC82BC7EA8D1"
+	group: "132AD1F5CE2CAC45"
+	order_index: 0
+	filename: "compressium"
+	title: "Compressium"
+	icon: "compressium:cobblestone_9"
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["0CF58DBF1535D9E8"]
+			id: "03BB257C48A3003D"
+			tasks: [{
+				id: "308BAA5740BC6249"
+				type: "item"
+				item: "compressium:cobblestone_2"
+			}]
+			rewards: [
+				{
+					id: "58109A494F3279A9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "175F49BBBAD3D292"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["03BB257C48A3003D"]
+			id: "50AAF976A3FD522B"
+			tasks: [{
+				id: "2CE8F0A4F829B537"
+				type: "item"
+				item: "compressium:cobblestone_3"
+			}]
+			rewards: [
+				{
+					id: "34A5516B0291DE3C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "48DEE494A0CDA0BA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["50AAF976A3FD522B"]
+			id: "3AE1D4E38FBBABA6"
+			tasks: [{
+				id: "248BF46A3605FE8A"
+				type: "item"
+				item: "compressium:cobblestone_4"
+			}]
+			rewards: [
+				{
+					id: "0F9B157A7A69EBF4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1F72DFD20800CDB5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["3AE1D4E38FBBABA6"]
+			id: "14A90902ECCD284F"
+			tasks: [{
+				id: "6F7857FF52FE4649"
+				type: "item"
+				item: "compressium:cobblestone_5"
+			}]
+			rewards: [
+				{
+					id: "3E24E3E9D3734AA7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6B2D89564A860324"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["14A90902ECCD284F"]
+			id: "690547B93C943D44"
+			tasks: [{
+				id: "21672C62901AB64C"
+				type: "item"
+				item: "compressium:cobblestone_6"
+			}]
+			rewards: [
+				{
+					id: "5D5AA7348B96A7C7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3AF5DF3D9F5E8662"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["690547B93C943D44"]
+			id: "308F3449CE059DC7"
+			tasks: [{
+				id: "6FF5CF8F1836FCCC"
+				type: "item"
+				item: "compressium:cobblestone_7"
+			}]
+			rewards: [
+				{
+					id: "0CA96BB897DCC1FD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1CA6FF87F2D4DF89"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["308F3449CE059DC7"]
+			id: "0E6803926EE6FB11"
+			tasks: [{
+				id: "57288D02CDBEA144"
+				type: "item"
+				item: "compressium:cobblestone_8"
+			}]
+			rewards: [
+				{
+					id: "4159A25994B77E7E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "494FE9A589EEB629"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["0E6803926EE6FB11"]
+			id: "7D3A4A4430E99227"
+			tasks: [{
+				id: "4A5B1729C29D0C16"
+				type: "item"
+				item: "compressium:cobblestone_9"
+			}]
+			rewards: [
+				{
+					id: "309AAE7354939126"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "636BE514F92F76F8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["62E7E1D04660A801"]
+			id: "5DF2828C278BF061"
+			tasks: [{
+				id: "6818CA317FB11F41"
+				type: "item"
+				item: "compressium:stone_2"
+			}]
+			rewards: [
+				{
+					id: "66E5C2D529F6CB9B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5EFB86DE712FEDB1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["5DF2828C278BF061"]
+			id: "41FE15800D3C9176"
+			tasks: [{
+				id: "5AFE681AC08BA347"
+				type: "item"
+				item: "compressium:stone_3"
+			}]
+			rewards: [
+				{
+					id: "1F14311C4F628BB4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7566358B6139967A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["41FE15800D3C9176"]
+			id: "4B313696F89F7D85"
+			tasks: [{
+				id: "47FA53EDC7ECE30E"
+				type: "item"
+				item: "compressium:stone_4"
+			}]
+			rewards: [
+				{
+					id: "792BA55CFEB2B426"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "725EB07E54958C13"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["4B313696F89F7D85"]
+			id: "75808FED4C25CB7A"
+			tasks: [{
+				id: "1BA1E8E8BF98FE4B"
+				type: "item"
+				item: "compressium:stone_5"
+			}]
+			rewards: [
+				{
+					id: "4CEA17098DC6FBB1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "72854AF661F98080"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["75808FED4C25CB7A"]
+			id: "1C6577C078CD9F5D"
+			tasks: [{
+				id: "697E7881A3717DDF"
+				type: "item"
+				item: "compressium:stone_6"
+			}]
+			rewards: [
+				{
+					id: "0CD8DB25D6932E6F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4DD5C099FF4B7005"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1C6577C078CD9F5D"]
+			id: "7DF2E2201480EF97"
+			tasks: [{
+				id: "123234C0F34D3B1E"
+				type: "item"
+				item: "compressium:stone_7"
+			}]
+			rewards: [
+				{
+					id: "62F6AD33AB924DA9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "56AC2527D212D8A9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["7DF2E2201480EF97"]
+			id: "3D5BC7E1F945BEE5"
+			tasks: [{
+				id: "393C148FB8BB3778"
+				type: "item"
+				item: "compressium:stone_8"
+			}]
+			rewards: [
+				{
+					id: "00D8589DE7783640"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "610C02B79F2771FB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["3D5BC7E1F945BEE5"]
+			id: "38479C2619DA1C80"
+			tasks: [{
+				id: "183EFD2AB89D059D"
+				type: "item"
+				item: "compressium:stone_9"
+			}]
+			rewards: [
+				{
+					id: "54679F6D380E85D6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "58818610B6438E5E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["5B353C0D0DD3021D"]
+			id: "012C6BA7925BF4AB"
+			tasks: [{
+				id: "014FE94F24FE8A45"
+				type: "item"
+				item: "compressium:sand_3"
+			}]
+			rewards: [
+				{
+					id: "42CD7474240085DC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3E93833FA20129E3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["012C6BA7925BF4AB"]
+			id: "3AF9BDA3A0076834"
+			tasks: [{
+				id: "719D8125630E1BA9"
+				type: "item"
+				item: "compressium:sand_4"
+			}]
+			rewards: [
+				{
+					id: "6BF7925CE093DA49"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "48C9FDFE9858A1E4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["3AF9BDA3A0076834"]
+			id: "1CF51EA129E31138"
+			tasks: [{
+				id: "10D158FA88A7BD59"
+				type: "item"
+				item: "compressium:sand_5"
+			}]
+			rewards: [
+				{
+					id: "13DA782BFD8029A5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4EB55E025A234A13"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["1CF51EA129E31138"]
+			id: "3FAE5AA1B0DC469E"
+			tasks: [{
+				id: "63CBF89779C31FA1"
+				type: "item"
+				item: "compressium:sand_6"
+			}]
+			rewards: [
+				{
+					id: "6AC885AB3791C4FB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7E7B9A2605318D84"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["3FAE5AA1B0DC469E"]
+			id: "39E2769A94BAEA4C"
+			tasks: [{
+				id: "0B2F7373989D3F45"
+				type: "item"
+				item: "compressium:sand_7"
+			}]
+			rewards: [
+				{
+					id: "6D18BBCE76DF4200"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "55392FA9B5685DE3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["39E2769A94BAEA4C"]
+			id: "3E1196BE0FECBF89"
+			tasks: [{
+				id: "7AE10EC2A48E6951"
+				type: "item"
+				item: "compressium:sand_8"
+			}]
+			rewards: [
+				{
+					id: "735EE8869147C049"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "27499C5707ECB546"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["3E1196BE0FECBF89"]
+			id: "1AF97D8500E24B14"
+			tasks: [{
+				id: "2682D309E647073F"
+				type: "item"
+				item: "compressium:sand_9"
+			}]
+			rewards: [
+				{
+					id: "15ACEE0D96B41A1C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4B53774528613C92"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["326491E7B8296730"]
+			id: "22ED6F7F49341900"
+			tasks: [{
+				id: "501A0D2D72AC21CB"
+				type: "item"
+				item: "compressium:gravel_2"
+			}]
+			rewards: [
+				{
+					id: "6981A87D673969CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6663E8EC5F5D15B9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["22ED6F7F49341900"]
+			id: "214507DC39D90456"
+			tasks: [{
+				id: "0A4D7016BBAD8601"
+				type: "item"
+				item: "compressium:gravel_3"
+			}]
+			rewards: [
+				{
+					id: "50ED4B8D99CBCA48"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "53783EE559EF9D6D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["214507DC39D90456"]
+			id: "63A849B6BA23DC69"
+			tasks: [{
+				id: "2FCE2C691EB6D3D4"
+				type: "item"
+				item: "compressium:gravel_4"
+			}]
+			rewards: [
+				{
+					id: "142648EE3FC95926"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6199D8867B2B2484"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["63A849B6BA23DC69"]
+			id: "206805DAD1377C09"
+			tasks: [{
+				id: "0E404FE33E0DB4C1"
+				type: "item"
+				item: "compressium:gravel_5"
+			}]
+			rewards: [
+				{
+					id: "7069F20FA35FC7E4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "049A3D0622026DA2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["206805DAD1377C09"]
+			id: "57F60F01148E6604"
+			tasks: [{
+				id: "3D08B2D169CDB3F5"
+				type: "item"
+				item: "compressium:gravel_6"
+			}]
+			rewards: [
+				{
+					id: "7211BC9AE0233DA0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4D4F4FD770FC0AE5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["57F60F01148E6604"]
+			id: "5B42BE74D957DC76"
+			tasks: [{
+				id: "14C049E1CCE4D74C"
+				type: "item"
+				item: "compressium:gravel_7"
+			}]
+			rewards: [
+				{
+					id: "3AF071A79D63A4B2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "75DEBDF25FD7324F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["5B42BE74D957DC76"]
+			id: "718084B7D47C1B90"
+			tasks: [{
+				id: "7EDA497DE13E37E9"
+				type: "item"
+				item: "compressium:gravel_8"
+			}]
+			rewards: [
+				{
+					id: "42C6F2D05079B212"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5B8D697BC053C45F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["718084B7D47C1B90"]
+			id: "6D0E1614BAD6C390"
+			tasks: [{
+				id: "30D3F99735DEE979"
+				type: "item"
+				item: "compressium:gravel_9"
+			}]
+			rewards: [
+				{
+					id: "53557E4099CFC22C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "742BEF77562066EB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			dependencies: ["2A0EA0C995A76147"]
+			id: "53159A420BFFC828"
+			tasks: [{
+				id: "2ADC1AA2424CF4F9"
+				type: "item"
+				item: "compressium:netherrack_2"
+			}]
+			rewards: [
+				{
+					id: "21B9DE2198E657AE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3F7F6BB80480FA68"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["53159A420BFFC828"]
+			id: "6A53EDCDC64129E4"
+			tasks: [{
+				id: "3AAAAA33F40FBA19"
+				type: "item"
+				item: "compressium:netherrack_3"
+			}]
+			rewards: [
+				{
+					id: "09B6CC4A765CE778"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "66B6419AD96FDC13"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["6A53EDCDC64129E4"]
+			id: "66388B117EFB5D00"
+			tasks: [{
+				id: "42B49E8043E36611"
+				type: "item"
+				item: "compressium:netherrack_4"
+			}]
+			rewards: [
+				{
+					id: "47479AD2670CBCBA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6AAA0966C71A1553"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["66388B117EFB5D00"]
+			id: "7CA4D302424536CF"
+			tasks: [{
+				id: "7C3FAC3EC447F4F8"
+				type: "item"
+				item: "compressium:netherrack_5"
+			}]
+			rewards: [
+				{
+					id: "686E2C8BD3C72E66"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2293E626F0449ABE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["7CA4D302424536CF"]
+			id: "56EFEF1D388477AB"
+			tasks: [{
+				id: "6360B71A04172917"
+				type: "item"
+				item: "compressium:netherrack_6"
+			}]
+			rewards: [
+				{
+					id: "60451D1448C48E43"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "461B50D57AA05373"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["56EFEF1D388477AB"]
+			id: "04A4FC617F7EF189"
+			tasks: [{
+				id: "5FE209DCE0D85420"
+				type: "item"
+				item: "compressium:netherrack_7"
+			}]
+			rewards: [
+				{
+					id: "5564DE7F866B8477"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0575BB982BC8B94B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["04A4FC617F7EF189"]
+			id: "06EE2B1B33CC86CA"
+			tasks: [{
+				id: "5D8318977E83B979"
+				type: "item"
+				item: "compressium:netherrack_8"
+			}]
+			rewards: [
+				{
+					id: "0AFF26EEE0172DF7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4D957EDD80F548BE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["06EE2B1B33CC86CA"]
+			id: "0DC7E3AA1E2198DE"
+			tasks: [{
+				id: "4829A5C7D438003B"
+				type: "item"
+				item: "compressium:netherrack_9"
+			}]
+			rewards: [
+				{
+					id: "00300DBF5B3232C5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0B5865345665B441"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["1C5F096D56699633"]
+			id: "5B353C0D0DD3021D"
+			tasks: [{
+				id: "75A8A3383A90181D"
+				type: "item"
+				item: "compressium:sand_2"
+			}]
+			rewards: [
+				{
+					id: "645E37B56B445CA8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4E5806FB27C06C3A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["643B258C98723C7D"]
+			id: "7876716838076D6B"
+			tasks: [{
+				id: "124E5B3B8D2C837F"
+				type: "item"
+				item: "compressium:snow_2"
+			}]
+			rewards: [
+				{
+					id: "66B0D28F2CA508C8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "576D9B2ADE15A525"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			dependencies: ["7876716838076D6B"]
+			id: "02C2A84D73691D3F"
+			tasks: [{
+				id: "64283A5DFC75130E"
+				type: "item"
+				item: "compressium:snow_3"
+			}]
+			rewards: [
+				{
+					id: "7A2BAFB7785E5150"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7D00694B23B87512"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["02C2A84D73691D3F"]
+			id: "35D70CA10847284F"
+			tasks: [{
+				id: "18467DE095C40F96"
+				type: "item"
+				item: "compressium:snow_4"
+			}]
+			rewards: [
+				{
+					id: "40F1370249B35F45"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "11D414C2646E1F32"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["35D70CA10847284F"]
+			id: "13FF589A09AA01F8"
+			tasks: [{
+				id: "45A27247CDE1263B"
+				type: "item"
+				item: "compressium:snow_5"
+			}]
+			rewards: [
+				{
+					id: "1AB4589B43E84EDB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "633AC82B2D6EEAFA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["13FF589A09AA01F8"]
+			id: "4347DF7A7E3DB271"
+			tasks: [{
+				id: "3178D558AB34A592"
+				type: "item"
+				item: "compressium:snow_6"
+			}]
+			rewards: [
+				{
+					id: "4C727E0B4677D935"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7EC9F97549C41BC8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["4347DF7A7E3DB271"]
+			id: "38F69B60483BCBB2"
+			tasks: [{
+				id: "341E795612138659"
+				type: "item"
+				item: "compressium:snow_7"
+			}]
+			rewards: [
+				{
+					id: "184FAA7D18FC1E56"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "742215ABB686FFA1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["38F69B60483BCBB2"]
+			id: "4851CCDCB182F460"
+			tasks: [{
+				id: "47FD85F967A65135"
+				type: "item"
+				item: "compressium:snow_8"
+			}]
+			rewards: [
+				{
+					id: "2438D55083902F7C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "421F821425BE9D8C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["4851CCDCB182F460"]
+			id: "05B36861CEBD6DCE"
+			tasks: [{
+				id: "7882F6115EEC5CEA"
+				type: "item"
+				item: "compressium:snow_9"
+			}]
+			rewards: [
+				{
+					id: "0E86265AC4047D27"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5F9C824416120350"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			dependencies: ["2A13B0265919ED6A"]
+			id: "3843A47105BF1EDF"
+			tasks: [{
+				id: "7D6E5E1EC225CB7A"
+				type: "item"
+				item: "compressium:soulsand_2"
+			}]
+			rewards: [
+				{
+					id: "157D02029372E653"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "651479E27F5A0508"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["3843A47105BF1EDF"]
+			id: "26A6FEB283B02375"
+			tasks: [{
+				id: "56E4A0DC07241C1C"
+				type: "item"
+				item: "compressium:soulsand_3"
+			}]
+			rewards: [
+				{
+					id: "7D7BC3D36D6D9DF7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4244243F3BEE3E77"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["26A6FEB283B02375"]
+			id: "2396CBF3E523482D"
+			tasks: [{
+				id: "245BEA7ECD5BE61A"
+				type: "item"
+				item: "compressium:soulsand_4"
+			}]
+			rewards: [
+				{
+					id: "5E4A0466EA150984"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6737F99B31870D8A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["2396CBF3E523482D"]
+			id: "306AC31A79D34167"
+			tasks: [{
+				id: "4F8A649C408125DF"
+				type: "item"
+				item: "compressium:soulsand_5"
+			}]
+			rewards: [
+				{
+					id: "0364FF38704C25B7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5C929B93CF2E8CA5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["306AC31A79D34167"]
+			id: "07573B4ED5BE4870"
+			tasks: [{
+				id: "7AD704998B4E1D49"
+				type: "item"
+				item: "compressium:soulsand_6"
+			}]
+			rewards: [
+				{
+					id: "2F29C17DE75925FC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5A45803E90613681"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["07573B4ED5BE4870"]
+			id: "3AA48D267A45D97A"
+			tasks: [{
+				id: "51B4BEAE65688C5B"
+				type: "item"
+				item: "compressium:soulsand_7"
+			}]
+			rewards: [
+				{
+					id: "5864B4EA61864D9E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "792D786AC62B02F8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["3AA48D267A45D97A"]
+			id: "69E027219BFBC974"
+			tasks: [{
+				id: "78DF68F92E96BD74"
+				type: "item"
+				item: "compressium:soulsand_8"
+			}]
+			rewards: [
+				{
+					id: "26002E012E2574DB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7AEC4228341A0C36"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["69E027219BFBC974"]
+			id: "20DB6CE59F82A5B9"
+			tasks: [{
+				id: "2AE686BE068241F5"
+				type: "item"
+				item: "compressium:soulsand_9"
+			}]
+			rewards: [
+				{
+					id: "7AA2195D68116A62"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2F7A5A98E55B8B7C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			dependencies: ["33D60BAA2B2EAAB6"]
+			id: "644F6F5C58A7216C"
+			tasks: [{
+				id: "3BE4E0417ED206FB"
+				type: "item"
+				item: "compressium:iron_2"
+			}]
+			rewards: [
+				{
+					id: "3719360E5EEF74F4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7A54F13C83AF1F20"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 9.0d
+			dependencies: ["644F6F5C58A7216C"]
+			id: "07CCB77109D15AE2"
+			tasks: [{
+				id: "02A43AA8C857667F"
+				type: "item"
+				item: "compressium:iron_3"
+			}]
+			rewards: [
+				{
+					id: "08ECF232CBF38EBB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "579DE7922F4577D1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["07CCB77109D15AE2"]
+			id: "634FA018124A816F"
+			tasks: [{
+				id: "526AC92677DA5D35"
+				type: "item"
+				item: "compressium:iron_4"
+			}]
+			rewards: [
+				{
+					id: "438CA06E3EDA4B53"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2C04A9F3C75E759A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["634FA018124A816F"]
+			id: "5159DCA00F603517"
+			tasks: [{
+				id: "7DE0059FAED29CC9"
+				type: "item"
+				item: "compressium:iron_5"
+			}]
+			rewards: [
+				{
+					id: "089CC16A969D0FB4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "764A79E6BB95167B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["5159DCA00F603517"]
+			id: "321CB9B664619100"
+			tasks: [{
+				id: "3F12FC04010DFA9E"
+				type: "item"
+				item: "compressium:iron_6"
+			}]
+			rewards: [
+				{
+					id: "7D71612B0EFB1C1E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "277A7634BA624F0F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			dependencies: ["321CB9B664619100"]
+			id: "62490AB14813288D"
+			tasks: [{
+				id: "72BC7E30E1AD2884"
+				type: "item"
+				item: "compressium:iron_7"
+			}]
+			rewards: [
+				{
+					id: "16ACD1443EA1F507"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1C4F0F0F789E7FFC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			dependencies: ["62490AB14813288D"]
+			id: "0890FB5C620A6752"
+			tasks: [{
+				id: "72D3D309DC8A4104"
+				type: "item"
+				item: "compressium:iron_8"
+			}]
+			rewards: [
+				{
+					id: "082255140B6077D6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6900D6901190FA39"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			dependencies: ["0890FB5C620A6752"]
+			id: "246A3C5EAC2F345C"
+			tasks: [{
+				id: "1C0D46474FA4677B"
+				type: "item"
+				item: "compressium:iron_9"
+			}]
+			rewards: [
+				{
+					id: "54E2705EEF920E6D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7346F20D9651B4EE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 10.5d
+			dependencies: ["68D9FAB0153E4550"]
+			id: "7FA80F118EBC6B95"
+			tasks: [{
+				id: "1B7AB72C55E5B809"
+				type: "item"
+				item: "compressium:gold_2"
+			}]
+			rewards: [
+				{
+					id: "325CF1D6B2A69647"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "64FC0F910156E273"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			dependencies: ["7FA80F118EBC6B95"]
+			id: "3F63E148D59E05CF"
+			tasks: [{
+				id: "2322C5D7D4DB84A3"
+				type: "item"
+				item: "compressium:gold_3"
+			}]
+			rewards: [
+				{
+					id: "0BFC7597FE1C1597"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6CF797FF6EC23D9F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["3F63E148D59E05CF"]
+			id: "2886963BAE45D8DC"
+			tasks: [{
+				id: "2E52149AD88D7DA4"
+				type: "item"
+				item: "compressium:gold_4"
+			}]
+			rewards: [
+				{
+					id: "2AE388E518741EF3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7E2C6F7BCD1FAC9F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			dependencies: ["2886963BAE45D8DC"]
+			id: "0663CA01BADEF749"
+			tasks: [{
+				id: "706647CC05FAFCEB"
+				type: "item"
+				item: "compressium:gold_5"
+			}]
+			rewards: [
+				{
+					id: "6E9CEB3F4640DE27"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "78E2AFF2D1FB5FA4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			dependencies: ["0663CA01BADEF749"]
+			id: "04CA23091A5B4B36"
+			tasks: [{
+				id: "56762EA272E14A7A"
+				type: "item"
+				item: "compressium:gold_6"
+			}]
+			rewards: [
+				{
+					id: "63DBF8F37FFD0681"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "62A207FB7F6BE2EB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			dependencies: ["04CA23091A5B4B36"]
+			id: "0E91041C9500C69E"
+			tasks: [{
+				id: "47BFEAD54F6FD544"
+				type: "item"
+				item: "compressium:gold_7"
+			}]
+			rewards: [
+				{
+					id: "7F607C6EC85D8DD7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7525CD0D51665EC3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			dependencies: ["0E91041C9500C69E"]
+			id: "655DE21897C5CC64"
+			tasks: [{
+				id: "59DF6E855CC6A54B"
+				type: "item"
+				item: "compressium:gold_8"
+			}]
+			rewards: [
+				{
+					id: "53B76BE786DA291C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2DCDD56E435EA130"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			dependencies: ["655DE21897C5CC64"]
+			id: "10DFB969D27F9E22"
+			tasks: [{
+				id: "2054745A9F215AEA"
+				type: "item"
+				item: "compressium:gold_9"
+			}]
+			rewards: [
+				{
+					id: "662E23D002BE5497"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5444DDE5F658F0A3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 12.0d
+			dependencies: ["6D76EAACC8D8EF11"]
+			id: "27AADF48A6C65AB0"
+			tasks: [{
+				id: "7252AA11EA1DB091"
+				type: "item"
+				item: "compressium:diamond_2"
+			}]
+			rewards: [
+				{
+					id: "1F4D2FBAF8E4375B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3CC6179C96A30AFA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			dependencies: ["27AADF48A6C65AB0"]
+			id: "12C72AB3F49ED976"
+			tasks: [{
+				id: "221E64677AD6AAEC"
+				type: "item"
+				item: "compressium:diamond_3"
+			}]
+			rewards: [
+				{
+					id: "6558FDB420404FAE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2C245E94DC048545"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			dependencies: ["12C72AB3F49ED976"]
+			id: "0559CECF40CC918E"
+			tasks: [{
+				id: "5A5C589979BA7CB2"
+				type: "item"
+				item: "compressium:diamond_4"
+			}]
+			rewards: [
+				{
+					id: "5776B2A7D1754853"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3EA1B3115A52F7D2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 12.0d
+			dependencies: ["0559CECF40CC918E"]
+			id: "38571341F3E96308"
+			tasks: [{
+				id: "2ABAD9D94C16A752"
+				type: "item"
+				item: "compressium:diamond_5"
+			}]
+			rewards: [
+				{
+					id: "00C8260ECD1A76DB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "39E16904B03032DB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["38571341F3E96308"]
+			id: "23D6EB59CE4E5074"
+			tasks: [{
+				id: "760BE11FA8EB7D19"
+				type: "item"
+				item: "compressium:diamond_6"
+			}]
+			rewards: [
+				{
+					id: "4644A0F0685340E2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7ABE7C7BB2D742C9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			dependencies: ["23D6EB59CE4E5074"]
+			id: "0345FC55F2504191"
+			tasks: [{
+				id: "65F9D06E17366468"
+				type: "item"
+				item: "compressium:diamond_7"
+			}]
+			rewards: [
+				{
+					id: "720441F3960ACF3F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1D578F2E3F1C7F90"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 12.0d
+			dependencies: ["0345FC55F2504191"]
+			id: "73E0F83A243DDAF0"
+			tasks: [{
+				id: "5A56BA2EEB00764A"
+				type: "item"
+				item: "compressium:diamond_8"
+			}]
+			rewards: [
+				{
+					id: "20A738D3A76D88E3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "286D76CB0A0E8A0B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 12.0d
+			dependencies: ["73E0F83A243DDAF0"]
+			id: "14D97F50E182AA69"
+			tasks: [{
+				id: "2E0489CF1B387E5C"
+				type: "item"
+				item: "compressium:diamond_9"
+			}]
+			rewards: [
+				{
+					id: "3BD4DF5F710C523B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "23D329ACF7FE1BDB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 13.5d
+			dependencies: ["6DF9243085EF247A"]
+			id: "0CE577BA70FDD817"
+			tasks: [{
+				id: "1C4D6E75405165E2"
+				type: "item"
+				item: "compressium:emerald_2"
+			}]
+			rewards: [
+				{
+					id: "1C0DF3FE5DEAD72B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "72CBE73C4451362E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 13.5d
+			dependencies: ["0CE577BA70FDD817"]
+			id: "52B1800848B046EB"
+			tasks: [{
+				id: "1725070B0FEEADC4"
+				type: "item"
+				item: "compressium:emerald_3"
+			}]
+			rewards: [
+				{
+					id: "0E398F9842136277"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6B2039DDAE8F9D1C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 13.5d
+			dependencies: ["52B1800848B046EB"]
+			id: "3D3DB85328F10177"
+			tasks: [{
+				id: "73D940114A66BE1C"
+				type: "item"
+				item: "compressium:emerald_4"
+			}]
+			rewards: [
+				{
+					id: "7F6F2860F77DBA59"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "19ACDA4D7ACEF3A8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			dependencies: ["3D3DB85328F10177"]
+			id: "2DD342991E3BA22A"
+			tasks: [{
+				id: "44A6BFB9E5CE1679"
+				type: "item"
+				item: "compressium:emerald_5"
+			}]
+			rewards: [
+				{
+					id: "162432F246453AF3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3721CD8EA13A214C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			dependencies: ["2DD342991E3BA22A"]
+			id: "028310D8EDC78B5A"
+			tasks: [{
+				id: "2516DC3F93A31391"
+				type: "item"
+				item: "compressium:emerald_6"
+			}]
+			rewards: [
+				{
+					id: "51D35F59E00DE5C1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4CD1C7605D2F039F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 13.5d
+			dependencies: ["028310D8EDC78B5A"]
+			id: "33E98C934D78263E"
+			tasks: [{
+				id: "22CD2A9EBD86504D"
+				type: "item"
+				item: "compressium:emerald_7"
+			}]
+			rewards: [
+				{
+					id: "2917C37726F88939"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "18EA668FE0618F8B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			dependencies: ["33E98C934D78263E"]
+			id: "3BF0C4405C5EB958"
+			tasks: [{
+				id: "7198807BEE5B4BE0"
+				type: "item"
+				item: "compressium:emerald_8"
+			}]
+			rewards: [
+				{
+					id: "0504F1505C77BDA9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5D76F2BFBE158F9C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 13.5d
+			dependencies: ["3BF0C4405C5EB958"]
+			id: "3960A1A6F8C441DD"
+			tasks: [{
+				id: "00884FBE3D7B22E5"
+				type: "item"
+				item: "compressium:emerald_9"
+			}]
+			rewards: [
+				{
+					id: "5841BE3BC4E01284"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1D66B8D7CBD57048"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 15.0d
+			dependencies: ["38479B5C15F9B3A0"]
+			id: "241C53E33D3CA6E0"
+			tasks: [{
+				id: "1CEB638E292506FE"
+				type: "item"
+				item: "compressium:clay_2"
+			}]
+			rewards: [
+				{
+					id: "751B776A7F7489B2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "55B56BE570FE047F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 15.0d
+			dependencies: ["241C53E33D3CA6E0"]
+			id: "439D387DDBE5C106"
+			tasks: [{
+				id: "0FA0B7CBBEAD0291"
+				type: "item"
+				item: "compressium:clay_3"
+			}]
+			rewards: [
+				{
+					id: "7E029A2B7E43640F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6D5654CAB58CC69F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 15.0d
+			dependencies: ["439D387DDBE5C106"]
+			id: "78F86C68FDE15179"
+			tasks: [{
+				id: "48168121808391F4"
+				type: "item"
+				item: "compressium:clay_4"
+			}]
+			rewards: [
+				{
+					id: "6332FDF35E5F8C65"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4CEFD408E494574E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 15.0d
+			dependencies: ["78F86C68FDE15179"]
+			id: "19E15E3F5BE3AA89"
+			tasks: [{
+				id: "3F66A873F8AB0F4B"
+				type: "item"
+				item: "compressium:clay_5"
+			}]
+			rewards: [
+				{
+					id: "0058D56E93553492"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0936CBD7B0E3C640"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			dependencies: ["19E15E3F5BE3AA89"]
+			id: "4E60495A68E559F6"
+			tasks: [{
+				id: "2CEF2DB894FF0A9F"
+				type: "item"
+				item: "compressium:clay_6"
+			}]
+			rewards: [
+				{
+					id: "4D965D6E408B4FA8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3D29E76FE22F1E5F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 15.0d
+			dependencies: ["4E60495A68E559F6"]
+			id: "7D9A4A0E662E4D7E"
+			tasks: [{
+				id: "45DA95735551385D"
+				type: "item"
+				item: "compressium:clay_7"
+			}]
+			rewards: [
+				{
+					id: "3EFFCFD0D6550572"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5F37912871733032"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 15.0d
+			dependencies: ["7D9A4A0E662E4D7E"]
+			id: "0BF05D60F99B9DE6"
+			tasks: [{
+				id: "049615F310EA53F6"
+				type: "item"
+				item: "compressium:clay_8"
+			}]
+			rewards: [
+				{
+					id: "4BBC0029048BBBB5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "46A5113A465F2397"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 15.0d
+			dependencies: ["0BF05D60F99B9DE6"]
+			id: "2BBADF7777548136"
+			tasks: [{
+				id: "5571C868A2776E4B"
+				type: "item"
+				item: "compressium:clay_9"
+			}]
+			rewards: [
+				{
+					id: "5DAB9129FFD5D557"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6A18132AF43C0D7F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 16.5d
+			dependencies: ["0FFA1AF010B49712"]
+			id: "5B0273D742AB20DB"
+			tasks: [{
+				id: "3063D6831D366708"
+				type: "item"
+				item: "compressium:netherite_2"
+			}]
+			rewards: [
+				{
+					id: "6750235042E8AB29"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "635AA5982EF97231"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 16.5d
+			dependencies: ["5B0273D742AB20DB"]
+			id: "1B2758B3F702F960"
+			tasks: [{
+				id: "4FCEDB4B8B360D43"
+				type: "item"
+				item: "compressium:netherite_3"
+			}]
+			rewards: [
+				{
+					id: "55C5986C18D01A89"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7E81D3E3188B15A2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 16.5d
+			dependencies: ["1B2758B3F702F960"]
+			id: "77FDEE1CD9363B9B"
+			tasks: [{
+				id: "0C150EDEB509893F"
+				type: "item"
+				item: "compressium:netherite_4"
+			}]
+			rewards: [
+				{
+					id: "2940080F46DDD940"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1050BD85F4F73D73"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 16.5d
+			dependencies: ["77FDEE1CD9363B9B"]
+			id: "5A61E86BF6173DFC"
+			tasks: [{
+				id: "320EAB5999210A37"
+				type: "item"
+				item: "compressium:netherite_5"
+			}]
+			rewards: [
+				{
+					id: "087135A795C7023A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1268F110FA7BF50B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 16.5d
+			dependencies: ["5A61E86BF6173DFC"]
+			id: "4A63D41ED453DD46"
+			tasks: [{
+				id: "5A672F8018274AC2"
+				type: "item"
+				item: "compressium:netherite_6"
+			}]
+			rewards: [
+				{
+					id: "4B1A9560B278125F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4F456C364F061044"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 16.5d
+			dependencies: ["4A63D41ED453DD46"]
+			id: "0541C5FD3BFDDC27"
+			tasks: [{
+				id: "4956AF1011EB7001"
+				type: "item"
+				item: "compressium:netherite_7"
+			}]
+			rewards: [
+				{
+					id: "0E9DD4070BB3F9A2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6A7B6F84C0B211C8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 16.5d
+			dependencies: ["0541C5FD3BFDDC27"]
+			id: "698AC9D67E367B01"
+			tasks: [{
+				id: "5D6DB31D15B5D072"
+				type: "item"
+				item: "compressium:netherite_8"
+			}]
+			rewards: [
+				{
+					id: "6F6FCAF0C8A8DB1D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7F2D9F6A9F3EB9CA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 16.5d
+			dependencies: ["698AC9D67E367B01"]
+			id: "54397D8EA63CF438"
+			tasks: [{
+				id: "1A64BAC81A4BE824"
+				type: "item"
+				item: "compressium:netherite_9"
+			}]
+			rewards: [
+				{
+					id: "32FE88FA450037CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5D2590969953F4FD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 18.0d
+			dependencies: ["2584C7CAB16DFE1A"]
+			id: "43256397A783F77E"
+			tasks: [{
+				id: "0D915B1F2FDC190E"
+				type: "item"
+				item: "compressium:dirt_2"
+			}]
+			rewards: [
+				{
+					id: "548F82498D0BF60D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4A2054F46646E0CE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 18.0d
+			dependencies: ["43256397A783F77E"]
+			id: "36341BAB7A742290"
+			tasks: [{
+				id: "2BB2603798D96450"
+				type: "item"
+				item: "compressium:dirt_3"
+			}]
+			rewards: [
+				{
+					id: "1662BE6188758E13"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "106998E99075063E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 18.0d
+			dependencies: ["36341BAB7A742290"]
+			id: "5052287F396D62BB"
+			tasks: [{
+				id: "2313FA971C7BF868"
+				type: "item"
+				item: "compressium:dirt_4"
+			}]
+			rewards: [
+				{
+					id: "32AC44992D7A802F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "58A122D3A2DB9B4E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 18.0d
+			dependencies: ["5052287F396D62BB"]
+			id: "7A8520A816F615A5"
+			tasks: [{
+				id: "59D4BDF0814377E3"
+				type: "item"
+				item: "compressium:dirt_5"
+			}]
+			rewards: [
+				{
+					id: "3DE0CBA3F09E6AEF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "771BE64837EAA6BF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 18.0d
+			dependencies: ["7A8520A816F615A5"]
+			id: "03B36225E04B78FC"
+			tasks: [{
+				id: "42EC0A713FE57411"
+				type: "item"
+				item: "compressium:dirt_6"
+			}]
+			rewards: [
+				{
+					id: "3CD0C74893B11F58"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "665AE5455F3075C2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 18.0d
+			dependencies: ["03B36225E04B78FC"]
+			id: "44C28D99FEDD4313"
+			tasks: [{
+				id: "48C9411E0A539E9C"
+				type: "item"
+				item: "compressium:dirt_7"
+			}]
+			rewards: [
+				{
+					id: "30E2E97261AAF050"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "225BD7748B492EFB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 18.0d
+			dependencies: ["44C28D99FEDD4313"]
+			id: "54F1A9D6A1CF8452"
+			tasks: [{
+				id: "28538B7F032AE8C2"
+				type: "item"
+				item: "compressium:dirt_8"
+			}]
+			rewards: [
+				{
+					id: "58B192993C34804B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "50931E26FAAC9E09"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 18.0d
+			dependencies: ["54F1A9D6A1CF8452"]
+			id: "563FB4EF078B55FE"
+			tasks: [{
+				id: "41F4362BA1553BF8"
+				type: "item"
+				item: "compressium:dirt_9"
+			}]
+			rewards: [
+				{
+					id: "536CC9C7460A9A2F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6E123C8D588F3340"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 19.5d
+			dependencies: ["48D53AB0208BE5B2"]
+			id: "41B5BA20DA6BBB81"
+			tasks: [{
+				id: "710C04BF0AE6E429"
+				type: "item"
+				item: "compressium:coal_2"
+			}]
+			rewards: [
+				{
+					id: "5D4703DABBC178DD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "09AAFA5ABE1574FF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 19.5d
+			dependencies: ["41B5BA20DA6BBB81"]
+			id: "13501F2C93609452"
+			tasks: [{
+				id: "5918E0ECE5391130"
+				type: "item"
+				item: "compressium:coal_3"
+			}]
+			rewards: [
+				{
+					id: "040172149F2784F8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4F079C95C6AC03DB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 19.5d
+			dependencies: ["13501F2C93609452"]
+			id: "3696EF4D68EA62D1"
+			tasks: [{
+				id: "1C3EEC0C16CCB6D3"
+				type: "item"
+				item: "compressium:coal_4"
+			}]
+			rewards: [
+				{
+					id: "364F0182BD4C439A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "435497F91093CEE9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 19.5d
+			dependencies: ["3696EF4D68EA62D1"]
+			id: "39FA42C4ED3CF682"
+			tasks: [{
+				id: "024DCED063675E19"
+				type: "item"
+				item: "compressium:coal_5"
+			}]
+			rewards: [
+				{
+					id: "39C2C015C7276049"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "69FA8C741E6E52CF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 19.5d
+			dependencies: ["39FA42C4ED3CF682"]
+			id: "30EE2E1F274883EA"
+			tasks: [{
+				id: "3CD017A1ABCCE6C1"
+				type: "item"
+				item: "compressium:coal_6"
+			}]
+			rewards: [
+				{
+					id: "157AB7EB4E865409"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5AEA9738C0999E7E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 19.5d
+			dependencies: ["30EE2E1F274883EA"]
+			id: "47262A1B02C43F19"
+			tasks: [{
+				id: "40F4EE05DB117F9A"
+				type: "item"
+				item: "compressium:coal_7"
+			}]
+			rewards: [
+				{
+					id: "24D84C11F4140824"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "688E05A9733C984D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 19.5d
+			dependencies: ["47262A1B02C43F19"]
+			id: "4EAD1DE43BF193D1"
+			tasks: [{
+				id: "55905AA83C889242"
+				type: "item"
+				item: "compressium:coal_8"
+			}]
+			rewards: [
+				{
+					id: "0D7646420D90BEE8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4CB7924B620CFFDA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 19.5d
+			dependencies: ["4EAD1DE43BF193D1"]
+			id: "301BC11D2EF7DC0B"
+			tasks: [{
+				id: "17498B7C5DE01E6F"
+				type: "item"
+				item: "compressium:coal_9"
+			}]
+			rewards: [
+				{
+					id: "614F21E1539B9F59"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "68C3E190CDFBED6B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 21.0d
+			dependencies: ["1FD93C970381FF9F"]
+			id: "3EC0AC83BED92F78"
+			tasks: [{
+				id: "22D949DB07BA0974"
+				type: "item"
+				item: "compressium:redsand_2"
+			}]
+			rewards: [
+				{
+					id: "61BCB161CD1A6741"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "12BDE6E1D8F8F537"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 21.0d
+			dependencies: ["3EC0AC83BED92F78"]
+			id: "162A3DFAB2BF84D2"
+			tasks: [{
+				id: "4BF5C3658D344E79"
+				type: "item"
+				item: "compressium:redsand_3"
+			}]
+			rewards: [
+				{
+					id: "68BBCC1657F32409"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7D7CF0D2F537B60C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 21.0d
+			dependencies: ["162A3DFAB2BF84D2"]
+			id: "457647C6D6E97B6A"
+			tasks: [{
+				id: "0ACAF806BE3765E9"
+				type: "item"
+				item: "compressium:redsand_4"
+			}]
+			rewards: [
+				{
+					id: "74FBF31F78EEFFA6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "61A66EB266C4A7D6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 21.0d
+			dependencies: ["457647C6D6E97B6A"]
+			id: "06FD784C84F3C13E"
+			tasks: [{
+				id: "0134321029437DDA"
+				type: "item"
+				item: "compressium:redsand_5"
+			}]
+			rewards: [
+				{
+					id: "1F8C133034B799BB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "726C665B8C4AA173"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 21.0d
+			dependencies: ["06FD784C84F3C13E"]
+			id: "2D609CC8E7DED760"
+			tasks: [{
+				id: "1094F39C33F95636"
+				type: "item"
+				item: "compressium:redsand_6"
+			}]
+			rewards: [
+				{
+					id: "2EF493B3B4B27146"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "061AE8BC258FF0B9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 21.0d
+			dependencies: ["2D609CC8E7DED760"]
+			id: "6C34DF45C9BE26EE"
+			tasks: [{
+				id: "133383AFC04B2263"
+				type: "item"
+				item: "compressium:redsand_7"
+			}]
+			rewards: [
+				{
+					id: "206901C868B4E7EC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "15DBC08E3F118503"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 21.0d
+			dependencies: ["6C34DF45C9BE26EE"]
+			id: "7D05135CBDDAF0F2"
+			tasks: [{
+				id: "7E4A4A188F53BF64"
+				type: "item"
+				item: "compressium:redsand_8"
+			}]
+			rewards: [
+				{
+					id: "55E788CB0D6E04CB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "66CF95B7D4A82413"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 21.0d
+			dependencies: ["7D05135CBDDAF0F2"]
+			id: "0DD3F05EF726560D"
+			tasks: [{
+				id: "2408EA2EC5A933AB"
+				type: "item"
+				item: "compressium:redsand_9"
+			}]
+			rewards: [
+				{
+					id: "144396FE3F4F4237"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "217A28231D2BF578"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 22.5d
+			dependencies: ["03B16811039CBEF2"]
+			id: "24A8D0A0147A9817"
+			tasks: [{
+				id: "47ECC316DA58C9FB"
+				type: "item"
+				item: "compressium:endstone_2"
+			}]
+			rewards: [
+				{
+					id: "21E41E944503B1E7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "75499C5DAED36B65"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 22.5d
+			dependencies: ["24A8D0A0147A9817"]
+			id: "2C0D765CFF175CD4"
+			tasks: [{
+				id: "73813668436C7D3C"
+				type: "item"
+				item: "compressium:endstone_3"
+			}]
+			rewards: [
+				{
+					id: "4BB382E21370BFA5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "68562180F2FFAC50"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 22.5d
+			dependencies: ["2C0D765CFF175CD4"]
+			id: "502670FD294B06ED"
+			tasks: [{
+				id: "518B350F823ACD92"
+				type: "item"
+				item: "compressium:endstone_4"
+			}]
+			rewards: [
+				{
+					id: "74EC9CCF1720BA40"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5787B493966E85CC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 22.5d
+			dependencies: ["502670FD294B06ED"]
+			id: "6DEC82C679CD0371"
+			tasks: [{
+				id: "6799C9887FC9AD55"
+				type: "item"
+				item: "compressium:endstone_5"
+			}]
+			rewards: [
+				{
+					id: "0610BE1F5BCB05DF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2C71E9F733238758"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 22.5d
+			dependencies: ["6DEC82C679CD0371"]
+			id: "592BDF67F21F3DD0"
+			tasks: [{
+				id: "5016FDE5F2739F58"
+				type: "item"
+				item: "compressium:endstone_6"
+			}]
+			rewards: [
+				{
+					id: "22B612F4EF4A079B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "64D70CA5DE193BFF"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 22.5d
+			dependencies: ["592BDF67F21F3DD0"]
+			id: "4892F2AC9C1265D4"
+			tasks: [{
+				id: "26052DDD718EB5A1"
+				type: "item"
+				item: "compressium:endstone_7"
+			}]
+			rewards: [
+				{
+					id: "4BBEB54D29117C4B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "535948548B65831D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 22.5d
+			dependencies: ["4892F2AC9C1265D4"]
+			id: "5F6A65AE61AD230E"
+			tasks: [{
+				id: "45400B5CD717308E"
+				type: "item"
+				item: "compressium:endstone_8"
+			}]
+			rewards: [
+				{
+					id: "2DD633763370134E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "56479318227F536C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 22.5d
+			dependencies: ["5F6A65AE61AD230E"]
+			id: "1B8297626D30FFD2"
+			tasks: [{
+				id: "06BF1B4E1A9F4413"
+				type: "item"
+				item: "compressium:endstone_9"
+			}]
+			rewards: [
+				{
+					id: "67F28A6A7BF7B943"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "24B1B4B8BF518FE7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 24.0d
+			dependencies: ["01B5CF35760666F9"]
+			id: "0564898733C33EFE"
+			tasks: [{
+				id: "25668C639D9482F5"
+				type: "item"
+				item: "compressium:obsidian_2"
+			}]
+			rewards: [
+				{
+					id: "6D665CA44CC38B72"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "10C96D6514BC80EA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 24.0d
+			dependencies: ["0564898733C33EFE"]
+			id: "14FDC92FEE022E8D"
+			tasks: [{
+				id: "338A117D160E40A8"
+				type: "item"
+				item: "compressium:obsidian_3"
+			}]
+			rewards: [
+				{
+					id: "447E6444B2A158AD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4649EE8A9F13B166"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 24.0d
+			dependencies: ["14FDC92FEE022E8D"]
+			id: "216B14512B8CFA2C"
+			tasks: [{
+				id: "66889DB09B1FC9B7"
+				type: "item"
+				item: "compressium:obsidian_4"
+			}]
+			rewards: [
+				{
+					id: "7EBB5EED765EA272"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "47AAA4D3568F7493"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 24.0d
+			dependencies: ["216B14512B8CFA2C"]
+			id: "5BA53522942A720F"
+			tasks: [{
+				id: "420E236FCA268210"
+				type: "item"
+				item: "compressium:obsidian_5"
+			}]
+			rewards: [
+				{
+					id: "6A7FD59BCC9E6259"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6764775B8C4EFD72"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 24.0d
+			dependencies: ["5BA53522942A720F"]
+			id: "178608FB88BD0021"
+			tasks: [{
+				id: "73C0FA0A49BD3310"
+				type: "item"
+				item: "compressium:obsidian_6"
+			}]
+			rewards: [
+				{
+					id: "0486152AF4E7B4AA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2EA8998E724A489B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 24.0d
+			dependencies: ["178608FB88BD0021"]
+			id: "1CEFE2D2B84A79C7"
+			tasks: [{
+				id: "06514D6818E28EF5"
+				type: "item"
+				item: "compressium:obsidian_7"
+			}]
+			rewards: [
+				{
+					id: "6391B136662AECCB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6CF746EAD0B1A761"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 24.0d
+			dependencies: ["1CEFE2D2B84A79C7"]
+			id: "5CD68FB21AC00687"
+			tasks: [{
+				id: "3A4E4AFB952A8BA8"
+				type: "item"
+				item: "compressium:obsidian_8"
+			}]
+			rewards: [
+				{
+					id: "4EED9D4A3B049133"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2A09EA3EAEE377AE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 24.0d
+			dependencies: ["5CD68FB21AC00687"]
+			id: "58A7C25E2DA00969"
+			tasks: [{
+				id: "107A0BDFD6056C10"
+				type: "item"
+				item: "compressium:obsidian_9"
+			}]
+			rewards: [
+				{
+					id: "3CB256A8C6BDD8AA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3E5F44DD5DC61B42"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 25.5d
+			dependencies: ["1F5E29FD90AC6880"]
+			id: "0D91265908C260E2"
+			tasks: [{
+				id: "689082C140A2755C"
+				type: "item"
+				item: "compressium:lapis_2"
+			}]
+			rewards: [
+				{
+					id: "4CE173C91D0F1B04"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "15AA59BA5DD6E4AB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 27.0d
+			dependencies: ["1DE2B6417AD02299"]
+			id: "6A788E53ABF67F2D"
+			tasks: [{
+				id: "1213EAF369AEB942"
+				type: "item"
+				item: "compressium:quartz_2"
+			}]
+			rewards: [
+				{
+					id: "678A970BF2B57AEB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4540C826D2C20509"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 28.5d
+			dependencies: ["300525EC05FC7BC3"]
+			id: "7B4158ECEB287AAD"
+			tasks: [{
+				id: "483BEF91436CB5C1"
+				type: "item"
+				item: "compressium:honey_2"
+			}]
+			rewards: [
+				{
+					id: "7DC75D8D7FCBC009"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "16C7C256CE46BA86"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 30.0d
+			dependencies: ["49A4C797381BB855"]
+			id: "703BBACBD0BFEA95"
+			tasks: [{
+				id: "13C6D3DEE3F016BE"
+				type: "item"
+				item: "compressium:redstone_2"
+			}]
+			rewards: [
+				{
+					id: "3C16F4909EB87EAA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "55513AB4C57F92EA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 31.5d
+			dependencies: ["4B2C2A284AEF1D1D"]
+			id: "4A790A38B0D8203A"
+			tasks: [{
+				id: "2A71F0736F55E9BB"
+				type: "item"
+				item: "compressium:andesite_2"
+			}]
+			rewards: [
+				{
+					id: "3000E274CDD43365"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "12E8063585097868"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 33.0d
+			dependencies: ["3F84A474FF84ABB8"]
+			id: "38B419725D042717"
+			tasks: [{
+				id: "370FF27A7E9AA473"
+				type: "item"
+				item: "compressium:diorite_2"
+			}]
+			rewards: [
+				{
+					id: "0D49E60E5CA0DE45"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2C70C0002039BD50"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 34.5d
+			dependencies: ["605A76BAB409F20C"]
+			id: "281337C8CE71AFF7"
+			tasks: [{
+				id: "230A997D77768A98"
+				type: "item"
+				item: "compressium:granite_2"
+			}]
+			rewards: [
+				{
+					id: "22CDF4ECABE623DD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6E4AB4F620EEEEA7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 25.5d
+			dependencies: ["0D91265908C260E2"]
+			id: "0B620732F8908970"
+			tasks: [{
+				id: "0FD5331252D2E3F7"
+				type: "item"
+				item: "compressium:lapis_3"
+			}]
+			rewards: [
+				{
+					id: "235DE00C0F0BE1A1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "118A4482A1FD17A5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 27.0d
+			dependencies: ["6A788E53ABF67F2D"]
+			id: "73EBD37A62295DA2"
+			tasks: [{
+				id: "3722F985DE2E01AF"
+				type: "item"
+				item: "compressium:quartz_3"
+			}]
+			rewards: [
+				{
+					id: "3A9D45B539FD2C60"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "58485CD8A7EBD0C2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 28.5d
+			dependencies: ["7B4158ECEB287AAD"]
+			id: "503358F7B104D980"
+			tasks: [{
+				id: "06D5AA3F72047F9E"
+				type: "item"
+				item: "compressium:honey_3"
+			}]
+			rewards: [
+				{
+					id: "757172CAA024F5BF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "32DE40C48BF8B5B6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 30.0d
+			dependencies: ["703BBACBD0BFEA95"]
+			id: "45F34E7796D94F39"
+			tasks: [{
+				id: "18F84FD51D405312"
+				type: "item"
+				item: "compressium:redstone_3"
+			}]
+			rewards: [
+				{
+					id: "12130F76ACA75C72"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "396A17C72C4DEAC0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 31.5d
+			dependencies: ["4A790A38B0D8203A"]
+			id: "1B5C38C9F7406F35"
+			tasks: [{
+				id: "1287AACE69416B1C"
+				type: "item"
+				item: "compressium:andesite_3"
+			}]
+			rewards: [
+				{
+					id: "16B9CE6F54ED67EE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "639D47BF324BC5AB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 33.0d
+			dependencies: ["38B419725D042717"]
+			id: "685AD1691B7BC2C4"
+			tasks: [{
+				id: "550BC9F8B33AE1DF"
+				type: "item"
+				item: "compressium:diorite_3"
+			}]
+			rewards: [
+				{
+					id: "378667E4EF0111FC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6C08DB70C5ABC2C0"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 34.5d
+			dependencies: ["281337C8CE71AFF7"]
+			id: "1DFD5CB392C68148"
+			tasks: [{
+				id: "4B9B317A335E1071"
+				type: "item"
+				item: "compressium:granite_3"
+			}]
+			rewards: [
+				{
+					id: "123F2C38855F21AC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "746AFEFE44D888D2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 25.5d
+			dependencies: ["0B620732F8908970"]
+			id: "495DD4978041A7D1"
+			tasks: [{
+				id: "5D056B687A8EFB48"
+				type: "item"
+				item: "compressium:lapis_4"
+			}]
+			rewards: [
+				{
+					id: "6FEE3A2E56EFD696"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2E324B7A1C8DA9FD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 27.0d
+			dependencies: ["73EBD37A62295DA2"]
+			id: "6867E117BB0B3CE1"
+			tasks: [{
+				id: "48F86C7F84CFE79A"
+				type: "item"
+				item: "compressium:quartz_4"
+			}]
+			rewards: [
+				{
+					id: "2233955BFB7CB774"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3E9C60675D3CE74A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 28.5d
+			dependencies: ["503358F7B104D980"]
+			id: "2672994A31B72420"
+			tasks: [{
+				id: "2EA49A070AAA7AED"
+				type: "item"
+				item: "compressium:honey_4"
+			}]
+			rewards: [
+				{
+					id: "0089F6BB153303C7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5CDB704ACB7EB789"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 30.0d
+			dependencies: ["45F34E7796D94F39"]
+			id: "72339C7D99FF3E6B"
+			tasks: [{
+				id: "06CDFCF4912EFE20"
+				type: "item"
+				item: "compressium:redstone_4"
+			}]
+			rewards: [
+				{
+					id: "406930BE60248F1E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "07B993E9E20ED434"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 31.5d
+			dependencies: ["1B5C38C9F7406F35"]
+			id: "6AC7B324543C2F2E"
+			tasks: [{
+				id: "3A5C02695369FC19"
+				type: "item"
+				item: "compressium:andesite_4"
+			}]
+			rewards: [
+				{
+					id: "683A13748D37164D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2F5F587676DA6AE4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 33.0d
+			dependencies: ["685AD1691B7BC2C4"]
+			id: "29D0A70D87E33DAA"
+			tasks: [{
+				id: "111E2F442E4E2D92"
+				type: "item"
+				item: "compressium:diorite_4"
+			}]
+			rewards: [
+				{
+					id: "65228A5348BBCF33"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4B9FAD80B99C0BFD"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 34.5d
+			dependencies: ["1DFD5CB392C68148"]
+			id: "31BE10D25DAA8067"
+			tasks: [{
+				id: "245C18D64876C2C7"
+				type: "item"
+				item: "compressium:granite_4"
+			}]
+			rewards: [
+				{
+					id: "71DD3631DC8251D2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "45ED5FA4D1063361"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 25.5d
+			dependencies: ["495DD4978041A7D1"]
+			id: "3CA5582AB84A19A4"
+			tasks: [{
+				id: "1833F06F3B9C5E64"
+				type: "item"
+				item: "compressium:lapis_5"
+			}]
+			rewards: [
+				{
+					id: "27E9A7D601D06BA0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4CED912266D19DFE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 27.0d
+			dependencies: ["6867E117BB0B3CE1"]
+			id: "451E018BCC6C0835"
+			tasks: [{
+				id: "76F3E6B8DF334060"
+				type: "item"
+				item: "compressium:quartz_5"
+			}]
+			rewards: [
+				{
+					id: "773EF323883EF8E2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6D42A0A724DB1D88"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 28.5d
+			dependencies: ["2672994A31B72420"]
+			id: "74E794E51FE836EF"
+			tasks: [{
+				id: "4A12476370558671"
+				type: "item"
+				item: "compressium:honey_5"
+			}]
+			rewards: [
+				{
+					id: "3705A3BFA1189F74"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "574BC13DA0F794A7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 30.0d
+			dependencies: ["72339C7D99FF3E6B"]
+			id: "500FBF1534A20732"
+			tasks: [{
+				id: "11CA5BDF3ADFB448"
+				type: "item"
+				item: "compressium:redstone_5"
+			}]
+			rewards: [
+				{
+					id: "453751334123341E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7395F9AE6DB8B76D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 31.5d
+			dependencies: ["6AC7B324543C2F2E"]
+			id: "4AEB7EBC5B51CC93"
+			tasks: [{
+				id: "0804AD6A3767101B"
+				type: "item"
+				item: "compressium:andesite_5"
+			}]
+			rewards: [
+				{
+					id: "060412154B4478D2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5BFDAC0A4733A0E7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 33.0d
+			dependencies: ["29D0A70D87E33DAA"]
+			id: "49C515A070E51B26"
+			tasks: [{
+				id: "579C4D4D797A8EC6"
+				type: "item"
+				item: "compressium:diorite_5"
+			}]
+			rewards: [
+				{
+					id: "7A612A56706635B0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "15EBDBC66DCDF635"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 34.5d
+			dependencies: ["31BE10D25DAA8067"]
+			id: "209D1C2DD71DBC36"
+			tasks: [{
+				id: "55EFF3B64EF69F77"
+				type: "item"
+				item: "compressium:granite_5"
+			}]
+			rewards: [
+				{
+					id: "492D1036016DD458"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "38E75BFE71D97C4C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 25.5d
+			dependencies: ["3CA5582AB84A19A4"]
+			id: "03243EBDA52865CB"
+			tasks: [{
+				id: "3E374FAB9D4579E4"
+				type: "item"
+				item: "compressium:lapis_6"
+			}]
+			rewards: [
+				{
+					id: "2D6D3AAAEE5BA463"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "502B31E1A1F9CF80"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 27.0d
+			dependencies: ["451E018BCC6C0835"]
+			id: "673186F142083EFF"
+			tasks: [{
+				id: "6B0588B615D1708E"
+				type: "item"
+				item: "compressium:quartz_6"
+			}]
+			rewards: [
+				{
+					id: "34E0E98081566FEF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "363FDEB1DED0BE7E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 28.5d
+			dependencies: ["74E794E51FE836EF"]
+			id: "5A61A832C05C8871"
+			tasks: [{
+				id: "00952060C198327A"
+				type: "item"
+				item: "compressium:honey_6"
+			}]
+			rewards: [
+				{
+					id: "1DE7CD41CDAD8564"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7B756EABF0E9CFC5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 30.0d
+			dependencies: ["500FBF1534A20732"]
+			id: "07EA36FD06BAE5D7"
+			tasks: [{
+				id: "4C3C46B31D8B5413"
+				type: "item"
+				item: "compressium:redstone_6"
+			}]
+			rewards: [
+				{
+					id: "3B952C6E19528B86"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1FA01A50835FF46B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 31.5d
+			dependencies: ["4AEB7EBC5B51CC93"]
+			id: "40F8BBB34DCBA711"
+			tasks: [{
+				id: "7F3A0679F2F7DF79"
+				type: "item"
+				item: "compressium:andesite_6"
+			}]
+			rewards: [
+				{
+					id: "2206D5F50CF19F76"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "00AFDF996F88F273"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 33.0d
+			dependencies: ["49C515A070E51B26"]
+			id: "47678093ED26BC5C"
+			tasks: [{
+				id: "5DC793532A8418E8"
+				type: "item"
+				item: "compressium:diorite_6"
+			}]
+			rewards: [
+				{
+					id: "6F303CC47177CAA2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "70673F2C8C12101D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 34.5d
+			dependencies: ["209D1C2DD71DBC36"]
+			id: "23D7B28B538EDC1B"
+			tasks: [{
+				id: "2B7C30C38A2C0DA0"
+				type: "item"
+				item: "compressium:granite_6"
+			}]
+			rewards: [
+				{
+					id: "716635C0843FF59C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5D66F6633A0BA766"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 25.5d
+			dependencies: ["03243EBDA52865CB"]
+			id: "1400494BC4FB3B6F"
+			tasks: [{
+				id: "2D82EF1950A0A598"
+				type: "item"
+				item: "compressium:lapis_7"
+			}]
+			rewards: [
+				{
+					id: "0E1439435A721890"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "79134574E743A247"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 27.0d
+			dependencies: ["673186F142083EFF"]
+			id: "18506A8C65BB0C69"
+			tasks: [{
+				id: "04EE260234495C1E"
+				type: "item"
+				item: "compressium:quartz_7"
+			}]
+			rewards: [
+				{
+					id: "57BAD837C54C42CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4AB881EDB3941D92"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 28.5d
+			dependencies: ["5A61A832C05C8871"]
+			id: "45322897C0E99439"
+			tasks: [{
+				id: "69900B1F32823E24"
+				type: "item"
+				item: "compressium:honey_7"
+			}]
+			rewards: [
+				{
+					id: "1D06866867F5BECC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "046C7C339876E83E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 30.0d
+			dependencies: ["07EA36FD06BAE5D7"]
+			id: "6B2563EF2987F7CA"
+			tasks: [{
+				id: "72D12105256ED11C"
+				type: "item"
+				item: "compressium:redstone_7"
+			}]
+			rewards: [
+				{
+					id: "2F7ABA04D836A298"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "52D08EC47F65445F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 31.5d
+			dependencies: ["40F8BBB34DCBA711"]
+			id: "2007A298BB135052"
+			tasks: [{
+				id: "0324C96653A29019"
+				type: "item"
+				item: "compressium:andesite_7"
+			}]
+			rewards: [
+				{
+					id: "5F63547CA5176A1C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "01F7EE8FE4F63C4A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 33.0d
+			dependencies: ["47678093ED26BC5C"]
+			id: "5A5165E960512991"
+			tasks: [{
+				id: "4A9A0FAEB60E6267"
+				type: "item"
+				item: "compressium:diorite_7"
+			}]
+			rewards: [
+				{
+					id: "21F556246355B7D0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1926F43FB4CEAF1E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 34.5d
+			dependencies: ["23D7B28B538EDC1B"]
+			id: "0A72C1A41D23DC12"
+			tasks: [{
+				id: "32C8FABF24F8B6DE"
+				type: "item"
+				item: "compressium:granite_7"
+			}]
+			rewards: [
+				{
+					id: "051E51725C6D71DB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "366F271F7C619B22"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 25.5d
+			dependencies: ["1400494BC4FB3B6F"]
+			id: "18B979AA1BA593F6"
+			tasks: [{
+				id: "590D55742C032C90"
+				type: "item"
+				item: "compressium:lapis_8"
+			}]
+			rewards: [
+				{
+					id: "2EE0780A454D6A12"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4AD27EF79AC7B136"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 27.0d
+			dependencies: ["18506A8C65BB0C69"]
+			id: "28D8524B0ABA5590"
+			tasks: [{
+				id: "79FECFDB9D903A69"
+				type: "item"
+				item: "compressium:quartz_8"
+			}]
+			rewards: [
+				{
+					id: "53C0E51441A97813"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "24D76E685F784EDA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 28.5d
+			dependencies: ["45322897C0E99439"]
+			id: "132AECC4115AE18B"
+			tasks: [{
+				id: "7594489FC546ADA2"
+				type: "item"
+				item: "compressium:honey_8"
+			}]
+			rewards: [
+				{
+					id: "00594042E7093B08"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3C07CD4D4566EF34"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 30.0d
+			dependencies: ["6B2563EF2987F7CA"]
+			id: "39B13402667F03DE"
+			tasks: [{
+				id: "06D7080AAA750621"
+				type: "item"
+				item: "compressium:redstone_8"
+			}]
+			rewards: [
+				{
+					id: "327AE993E94ED6FC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "31D989BC7716408C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 31.5d
+			dependencies: ["2007A298BB135052"]
+			id: "34674F118269D882"
+			tasks: [{
+				id: "0597E4205A72FE5F"
+				type: "item"
+				item: "compressium:andesite_8"
+			}]
+			rewards: [
+				{
+					id: "782D9E41D11B16ED"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "4DE6216F9E282B7C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 33.0d
+			dependencies: ["5A5165E960512991"]
+			id: "04AD23A3719DBFB2"
+			tasks: [{
+				id: "34AD0A771B1C261A"
+				type: "item"
+				item: "compressium:diorite_8"
+			}]
+			rewards: [
+				{
+					id: "0B77C083A8B1F44F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2EDDF2FA0498E0FA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 34.5d
+			dependencies: ["0A72C1A41D23DC12"]
+			id: "76B4A02ABC26110A"
+			tasks: [{
+				id: "283AF42532160440"
+				type: "item"
+				item: "compressium:granite_8"
+			}]
+			rewards: [
+				{
+					id: "6316517F055EBD75"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "05562EAD50833245"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 25.5d
+			dependencies: ["18B979AA1BA593F6"]
+			id: "7C7867AD6A12E165"
+			tasks: [{
+				id: "7A8985A4C6AEB097"
+				type: "item"
+				item: "compressium:lapis_9"
+			}]
+			rewards: [
+				{
+					id: "103EEB8CE0187A12"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3C3BA0E68F128D35"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 27.0d
+			dependencies: ["28D8524B0ABA5590"]
+			id: "68D85045CB13D0B6"
+			tasks: [{
+				id: "196A7B2A77A77C54"
+				type: "item"
+				item: "compressium:quartz_9"
+			}]
+			rewards: [
+				{
+					id: "2403C9A30AED75A6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "170342E4AB60B0C4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 28.5d
+			dependencies: ["132AECC4115AE18B"]
+			id: "625763460E08E2A5"
+			tasks: [{
+				id: "0B968108DEC7A07F"
+				type: "item"
+				item: "compressium:honey_9"
+			}]
+			rewards: [
+				{
+					id: "1F8DB2B5CA36F282"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5465FD984E8F6832"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 30.0d
+			dependencies: ["39B13402667F03DE"]
+			id: "370E7A5E190D4F0B"
+			tasks: [{
+				id: "0137834F723AD98B"
+				type: "item"
+				item: "compressium:redstone_9"
+			}]
+			rewards: [
+				{
+					id: "5507E7154703F7E6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "25A04CA6C74C2C5C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 31.5d
+			dependencies: ["34674F118269D882"]
+			id: "5B6A3B869303526A"
+			tasks: [{
+				id: "0A782DD4E880260D"
+				type: "item"
+				item: "compressium:andesite_9"
+			}]
+			rewards: [
+				{
+					id: "0550EBAEB1C54CA5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "70F422531C3534D8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 33.0d
+			dependencies: ["04AD23A3719DBFB2"]
+			id: "647FAD867EDF12CC"
+			tasks: [{
+				id: "269481277C33885A"
+				type: "item"
+				item: "compressium:diorite_9"
+			}]
+			rewards: [
+				{
+					id: "660427023F16D312"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "39E3E2133B9A2254"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 34.5d
+			dependencies: ["76B4A02ABC26110A"]
+			id: "31110415EDBB0F8F"
+			tasks: [{
+				id: "778720DADB0EADB0"
+				type: "item"
+				item: "compressium:granite_9"
+			}]
+			rewards: [
+				{
+					id: "2DA43A3B140D1E68"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0B4C1EF0C67E5295"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			id: "0CF58DBF1535D9E8"
+			tasks: [{
+				id: "3950E7916FC27305"
+				type: "item"
+				item: "excompressum:compressed_cobblestone"
+			}]
+			rewards: [
+				{
+					id: "0CBC8A0DD3F0F5FE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2A585A2716FE9FFB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			id: "326491E7B8296730"
+			tasks: [{
+				id: "67E5CE034D510758"
+				type: "item"
+				item: "excompressum:compressed_gravel"
+			}]
+			rewards: [
+				{
+					id: "6C77A6D05664C0B1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0518AC2C9445F87B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			id: "1C5F096D56699633"
+			tasks: [{
+				id: "5AEB5B9EE11568F3"
+				type: "item"
+				item: "excompressum:compressed_sand"
+			}]
+			rewards: [
+				{
+					id: "61EF82A060BC9DD5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "711113C442667858"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 18.0d
+			id: "2584C7CAB16DFE1A"
+			tasks: [{
+				id: "53773E9D199B3D87"
+				type: "item"
+				item: "excompressum:compressed_dirt"
+			}]
+			rewards: [
+				{
+					id: "2949784DE33687D4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7FC3B3FA75354644"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			id: "2A13B0265919ED6A"
+			tasks: [{
+				id: "1F14D46BAE07D6D9"
+				type: "item"
+				item: "excompressum:compressed_soul_sand"
+			}]
+			rewards: [
+				{
+					id: "6D1DD0896DC5A6ED"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0CCD70B6724CE832"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			id: "2A0EA0C995A76147"
+			tasks: [{
+				id: "672C00736E93958F"
+				type: "item"
+				item: "excompressum:compressed_netherrack"
+			}]
+			rewards: [
+				{
+					id: "3FF4DD6E9C499B04"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "006995A19D7DE9E3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 22.5d
+			id: "03B16811039CBEF2"
+			tasks: [{
+				id: "41FC5215C639177E"
+				type: "item"
+				item: "excompressum:compressed_end_stone"
+			}]
+			rewards: [
+				{
+					id: "128A27FE5CF1C6D0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "59F1F65BE97CDF12"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 33.0d
+			id: "3F84A474FF84ABB8"
+			tasks: [{
+				id: "6685A63FB5D85254"
+				type: "item"
+				item: "excompressum:compressed_diorite"
+			}]
+			rewards: [
+				{
+					id: "6C2F9CB705B0E0DC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "70F4C38E242F3CFB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 31.5d
+			id: "4B2C2A284AEF1D1D"
+			tasks: [{
+				id: "0382B58E6B43D6CA"
+				type: "item"
+				item: "excompressum:compressed_andesite"
+			}]
+			rewards: [
+				{
+					id: "5D21CB1EE65D2550"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "195A59C72391B46B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 34.5d
+			id: "605A76BAB409F20C"
+			tasks: [{
+				id: "12003816ECFFBCE9"
+				type: "item"
+				item: "excompressum:compressed_granite"
+			}]
+			rewards: [
+				{
+					id: "0CCD95463FAC425D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "61E5352716B2AC55"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			id: "62E7E1D04660A801"
+			tasks: [{
+				id: "0B0E4300F0B28DB4"
+				type: "item"
+				item: "compressium:stone_1"
+			}]
+			rewards: [
+				{
+					id: "36D46AA712DA4294"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6CC07A158FFD4989"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 6.0d
+			id: "643B258C98723C7D"
+			tasks: [{
+				id: "484A68D14C3C8160"
+				type: "item"
+				item: "compressium:snow_1"
+			}]
+			rewards: [
+				{
+					id: "4B552D23A4FF5E24"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "10AC0B0CF4263BDB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 9.0d
+			id: "33D60BAA2B2EAAB6"
+			tasks: [{
+				id: "0408CD20E6587925"
+				type: "item"
+				item: "compressium:iron_1"
+			}]
+			rewards: [
+				{
+					id: "02B86CE0D5EA9F13"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "28BE01D1EF8699C1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 10.5d
+			id: "68D9FAB0153E4550"
+			tasks: [{
+				id: "28C17581A6494BF5"
+				type: "item"
+				item: "compressium:gold_1"
+			}]
+			rewards: [
+				{
+					id: "5FC8B1B3BF721A95"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1D9651FA17141E2A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 12.0d
+			id: "6D76EAACC8D8EF11"
+			tasks: [{
+				id: "2CA9DAA1AEAC52B4"
+				type: "item"
+				item: "compressium:diamond_1"
+			}]
+			rewards: [
+				{
+					id: "2F370D575C79DF89"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5402FEA28E22D571"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 13.5d
+			id: "6DF9243085EF247A"
+			tasks: [{
+				id: "79F5B2E662721A39"
+				type: "item"
+				item: "compressium:emerald_1"
+			}]
+			rewards: [
+				{
+					id: "5E89650D6C7C7677"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "595EC7EA35EA79A3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 15.0d
+			id: "38479B5C15F9B3A0"
+			tasks: [{
+				id: "590DD5D435209EFD"
+				type: "item"
+				item: "compressium:clay_1"
+			}]
+			rewards: [
+				{
+					id: "23AB3B9123C657B0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "113536AA7D7F07AA"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 16.5d
+			id: "0FFA1AF010B49712"
+			tasks: [{
+				id: "1B909FF3A527AB97"
+				type: "item"
+				item: "compressium:netherite_1"
+			}]
+			rewards: [
+				{
+					id: "0D69FEF3666741EA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "48067297F9375D3D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 19.5d
+			id: "48D53AB0208BE5B2"
+			tasks: [{
+				id: "4EF0E22F83039E4F"
+				type: "item"
+				item: "compressium:coal_1"
+			}]
+			rewards: [
+				{
+					id: "48D5389C5DD9E20D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "42B4E3CC60C73D4B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 21.0d
+			id: "1FD93C970381FF9F"
+			tasks: [{
+				id: "49DE81FC8C0F9B55"
+				type: "item"
+				item: "compressium:redsand_1"
+			}]
+			rewards: [
+				{
+					id: "73ED3398DFB65D8A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "53B7E5DF42B18D5A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 24.0d
+			id: "01B5CF35760666F9"
+			tasks: [{
+				id: "5109027DBDAD3391"
+				type: "item"
+				item: "compressium:obsidian_1"
+			}]
+			rewards: [
+				{
+					id: "0B153CF1F857CA54"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "414F8C117B5E90D4"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 25.5d
+			id: "1F5E29FD90AC6880"
+			tasks: [{
+				id: "51D7D24C25DF122A"
+				type: "item"
+				item: "compressium:lapis_1"
+			}]
+			rewards: [
+				{
+					id: "16BD79F82E85533E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7282FBEC262C296B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 27.0d
+			id: "1DE2B6417AD02299"
+			tasks: [{
+				id: "7FBDB065C37B7E7E"
+				type: "item"
+				item: "compressium:quartz_1"
+			}]
+			rewards: [
+				{
+					id: "7A5080B9F62F9CF2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0A09F2B69E6D9DBB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 28.5d
+			id: "300525EC05FC7BC3"
+			tasks: [{
+				id: "147DB09989E74B18"
+				type: "item"
+				item: "compressium:honey_1"
+			}]
+			rewards: [
+				{
+					id: "7CFA8CB63633F807"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "662882055EAF9305"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 30.0d
+			id: "49A4C797381BB855"
+			tasks: [{
+				id: "26583EAC0BD537BC"
+				type: "item"
+				item: "compressium:redstone_1"
+			}]
+			rewards: [
+				{
+					id: "4D8AE007E73B539E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3BDD4C7C58C489F3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 15.0d
+			dependencies: [
+				"7D3A4A4430E99227"
+				"38479C2619DA1C80"
+				"1AF97D8500E24B14"
+				"6D0E1614BAD6C390"
+				"0DC7E3AA1E2198DE"
+				"05B36861CEBD6DCE"
+				"20DB6CE59F82A5B9"
+				"246A3C5EAC2F345C"
+				"10DFB969D27F9E22"
+				"14D97F50E182AA69"
+				"3960A1A6F8C441DD"
+				"2BBADF7777548136"
+				"54397D8EA63CF438"
+				"563FB4EF078B55FE"
+				"301BC11D2EF7DC0B"
+				"0DD3F05EF726560D"
+				"1B8297626D30FFD2"
+				"58A7C25E2DA00969"
+				"7C7867AD6A12E165"
+				"68D85045CB13D0B6"
+				"625763460E08E2A5"
+				"370E7A5E190D4F0B"
+				"5B6A3B869303526A"
+				"647FAD867EDF12CC"
+				"31110415EDBB0F8F"
+			]
+			size: 8.0d
+			id: "00F9B901C0A77DD9"
+			tasks: [{
+				id: "0457827B13905ED4"
+				type: "checkmark"
+				title: "ARE U CRAZY??????"
+			}]
+			rewards: [
+				{
+					id: "5B8325C989B8B478"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "69CBE1319BBAA72B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

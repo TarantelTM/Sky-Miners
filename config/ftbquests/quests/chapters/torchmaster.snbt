@@ -1,0 +1,110 @@
+{
+	id: "2964E6E43E60DC73"
+	group: "19C3EECE68324A97"
+	order_index: 0
+	filename: "torchmaster"
+	title: "Torchmaster"
+	icon: "torchmaster:megatorch"
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -4.5d
+			id: "01D38C4F835A2480"
+			tasks: [{
+				id: "02936CA8FF8A1845"
+				type: "item"
+				item: "torchmaster:feral_flare_lantern"
+			}]
+			rewards: [
+				{
+					id: "5FD712E7B59B2CF3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2089A8F873562D12"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.371428571428567d
+			y: -5.914285714285715d
+			id: "1AD55FAE8736AA58"
+			tasks: [{
+				id: "6A4339E520970239"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			rewards: [
+				{
+					id: "405A84FA76713774"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "09829172A9078F77"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5142857142857125d
+			y: -4.3428571428571345d
+			id: "68714ABB2D5D743B"
+			tasks: [{
+				id: "49A15DA0CC7C023A"
+				type: "item"
+				item: "torchmaster:frozen_pearl"
+			}]
+			rewards: [
+				{
+					id: "21FDB5F55DFD03E2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "14B930B481D65A0A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.228571428571421d
+			y: -6.171428571428571d
+			dependencies: [
+				"1AD55FAE8736AA58"
+				"01D38C4F835A2480"
+				"68714ABB2D5D743B"
+			]
+			size: 2.0d
+			id: "78DB925D47EDF261"
+			tasks: [{
+				id: "069566C40B25C669"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [
+				{
+					id: "51CB567D98660203"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2E5E7E48BF63CCA2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

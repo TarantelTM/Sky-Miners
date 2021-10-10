@@ -1,0 +1,90 @@
+type = menu
+
+customization-meta {
+  identifier = Update_News
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = -49
+  width = 100
+  actionid = 06761d5d-8106-46a2-9bfd-d47279f94f0b1632872142727
+  action = addbutton
+  y = 10
+  label = %local:tarantel.close%
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -50
+  width = 100
+  actionid = 611e05ab-56cf-425a-a3d4-cda6f8308de81632872142814
+  action = addbutton
+  y = -9
+  label = 1.0.13
+  value = update_1.0.13
+  height = 18
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -50
+  width = 100
+  actionid = caabdfe3-e2eb-4bbb-977c-e7bd9791a2f71632872142902
+  action = addbutton
+  y = 14
+  label = 1.0.12
+  value = update_1.0.12
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -50
+  width = 100
+  actionid = 17816234-5656-45d4-b3ca-9abd850d0d041632872142990
+  action = addbutton
+  y = 39
+  label = 1.0.11
+  value = update_1.0.11
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -50
+  width = 100
+  actionid = 6d9ec3a9-37c4-4b93-a5dd-6f82a8bab7591632872143077
+  action = addbutton
+  y = 64
+  label = 1.0.10
+  value = update_1.0.10
+  height = 20
+}
+

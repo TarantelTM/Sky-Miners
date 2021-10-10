@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "5C8D26BB4F675A0D", title: "Energy" }
+		{ id: "19C3EECE68324A97", title: "Life Changers" }
+		{ id: "132AD1F5CE2CAC45", title: "Basic Storage" }
+		{ id: "70BA3A940247179D", title: "Better Storage" }
+		{ id: "222360AECD53625D", title: "Basic Grind" }
+		{ id: "75706DC77897C570", title: "Better Grind" }
+		{ id: "737DDDCA4ED344D7", title: "Basic Production" }
+		{ id: "0FEC59B4FE167882", title: "Better Production" }
+	]
+}

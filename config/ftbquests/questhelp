@@ -1,0 +1,6 @@
+Add Custom Name to Items
+{id:"modidname:itemidname",Count:ItemAmountNumber,tag:{Damage:0,display:{Name:'[{"text":"YOURCUSTOMITEMNAME"}]'}}
+lvl:8,id:"modidname:enchantidname"}]}}
+
+
+{id:"excompressum:compressed_hammer_netherite",Count:1b,tag:{Damage:0,display:{Name:'[{"text":"Sky Hammer"}]'},Enchantments:[{lvl:8,id:"minecraft:unbreaking"}]}}

@@ -1,0 +1,110 @@
+{
+	id: "7AB9E998C2FEBF24"
+	group: "70BA3A940247179D"
+	order_index: 0
+	filename: "quantum_storage"
+	title: "Quantum Storage"
+	icon: "quantumstorage:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "236E6E66CFE1F1E8"
+			tasks: [{
+				id: "6E6C0BE865C57B0B"
+				type: "item"
+				item: "quantumstorage:qsu"
+			}]
+			rewards: [
+				{
+					id: "6D1032A3D00EC577"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "255C60324E6A492A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["345ACAADC903D213"]
+			id: "51720EA3556EAAAF"
+			tasks: [{
+				id: "1E3F5F06D0E383A0"
+				type: "item"
+				item: "quantumstorage:controller"
+			}]
+			rewards: [
+				{
+					id: "57915A941B3F238F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "19136720DD4E0466"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "67D2A3A2F00CC07D"
+			tasks: [{
+				id: "2A1C98E3A38CB488"
+				type: "item"
+				item: "quantumstorage:tank"
+			}]
+			rewards: [
+				{
+					id: "62F57AD5E3870D41"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "028BEFEC0F0F0801"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			min_required_dependencies: 1
+			dependencies: [
+				"236E6E66CFE1F1E8"
+				"67D2A3A2F00CC07D"
+			]
+			id: "345ACAADC903D213"
+			tasks: [{
+				id: "223A4C0202D7AD15"
+				type: "item"
+				item: "quantumstorage:hammer"
+			}]
+			rewards: [
+				{
+					id: "5FD557353C89828E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2D91887241605E80"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

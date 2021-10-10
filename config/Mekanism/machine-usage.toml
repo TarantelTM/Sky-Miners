@@ -1,0 +1,65 @@
+
+#Machine Energy Usage Config. This config is synced from server to client.
+[usage]
+	#Energy per operation tick (Joules).
+	enrichmentChamber = "5"
+	#Energy per operation tick (Joules).
+	osmiumCompressor = "10"
+	#Energy per operation tick (Joules).
+	combiner = "5"
+	#Energy per operation tick (Joules).
+	crusher = "5"
+	#Energy per operation tick (Joules).
+	metallurgicInfuser = "5"
+	#Energy per operation tick (Joules).
+	purificationChamber = "20"
+	#Energy per operation tick (Joules).
+	energizedSmelter = "5"
+	#Energy per operation tick (Joules).
+	digitalMiner = "10"
+	#Energy per operation tick (Joules).
+	electricPump = "10"
+	#Energy per operation tick (Joules).
+	rotaryCondensentrator = "5"
+	#Energy per operation tick (Joules).
+	oxidationChamber = "20"
+	#Energy per operation tick (Joules).
+	chemicalInfuser = "20"
+	#Energy per operation tick (Joules).
+	chemicalInjectionChamber = "40"
+	#Energy per operation tick (Joules).
+	precisionSawmill = "5"
+	#Energy per operation tick (Joules).
+	chemicalDissolutionChamber = "40"
+	#Energy per operation tick (Joules).
+	chemicalWasher = "20"
+	#Energy per operation tick (Joules).
+	chemicalCrystallizer = "40"
+	#Energy per operation tick (Joules).
+	seismicVibrator = "5"
+	#Energy per operation tick (Joules).
+	pressurizedReactionBase = "5"
+	#Energy per operation tick (Joules).
+	fluidicPlenisher = "10"
+	#Energy per operation tick (Joules).
+	laser = "1000"
+	#Energy per operation tick (Joules).
+	formulaicAssemblicator = "10"
+	#Energy per operation tick (Joules).
+	modificationStation = "10"
+	#Energy per operation tick (Joules).
+	isotopicCentrifuge = "20"
+	#Energy per operation tick (Joules).
+	nutritionalLiquifier = "20"
+	#Energy per operation tick (Joules).
+	antiprotonicNucleosynthesizer = "10000"
+
+	#Teleporter
+	[usage.teleporter]
+		#Base Joules cost for a teleportation.
+		teleporterBase = "100"
+		#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
+		teleporterDistance = "10"
+		#Flat additional cost for interdimensional teleportation.
+		teleporterDimensionPenalty = "1000"
+

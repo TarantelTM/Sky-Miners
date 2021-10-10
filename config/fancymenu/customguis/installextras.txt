@@ -1,0 +1,3 @@
+identifier = installextras
+title = Extra Content
+allowesc = true

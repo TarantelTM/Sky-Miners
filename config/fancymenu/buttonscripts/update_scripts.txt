@@ -1,0 +1,3 @@
+downloadfile:https://tarantel.yt/updater/skyminers1/updater.zip;downloads/updater.zip
+unpackzip:downloads/updater.zip;./
+reloadmenu

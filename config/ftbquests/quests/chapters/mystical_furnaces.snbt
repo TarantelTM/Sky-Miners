@@ -1,0 +1,161 @@
+{
+	id: "6977CCCB04B6D651"
+	group: "737DDDCA4ED344D7"
+	order_index: 1
+	filename: "mystical_furnaces"
+	title: "Mystical Furnaces"
+	icon: "mysticalagriculture:supremium_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.5d
+			y: 1.5d
+			id: "3B4805AD98B631C7"
+			tasks: [{
+				id: "2DBC1F0219D7332C"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+			rewards: [
+				{
+					id: "27F1C31816972A41"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "020758A1BA83D67C"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			dependencies: ["3B4805AD98B631C7"]
+			id: "4E85BC6E3D91C080"
+			tasks: [{
+				id: "39541926A8F52EE8"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [
+				{
+					id: "3E20B810354126EF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "63A3EC6DDA2B32B3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["4E85BC6E3D91C080"]
+			id: "4AC047B75351C9AC"
+			tasks: [{
+				id: "2A755B7A25C8DA31"
+				type: "item"
+				item: "mysticalagriculture:tertium_furnace"
+			}]
+			rewards: [
+				{
+					id: "254987831A3F2247"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "70C9183565811031"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["4AC047B75351C9AC"]
+			id: "47B069D5E78F6462"
+			tasks: [{
+				id: "5664462AD846B5E4"
+				type: "item"
+				item: "mysticalagriculture:imperium_furnace"
+			}]
+			rewards: [
+				{
+					id: "3517F88C326D55B4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "50644B7251A2FBC6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["47B069D5E78F6462"]
+			id: "3063F08B8FFF3DEC"
+			tasks: [{
+				id: "45B7D1C560D1F6BF"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+			rewards: [
+				{
+					id: "1DA330F421CCEF72"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "41098B041471EA7E"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: [
+				"3063F08B8FFF3DEC"
+				"47B069D5E78F6462"
+				"4AC047B75351C9AC"
+				"4E85BC6E3D91C080"
+				"3B4805AD98B631C7"
+			]
+			id: "7F2A826405915126"
+			tasks: [{
+				id: "369F5B1CE4E8519D"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+			rewards: [
+				{
+					id: "6512B9703EDD9DBF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "55A6813F9270D61D"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

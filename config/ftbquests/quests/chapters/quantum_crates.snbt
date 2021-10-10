@@ -1,0 +1,182 @@
+{
+	id: "1428D6438A5B86B0"
+	group: "132AD1F5CE2CAC45"
+	order_index: 3
+	filename: "quantum_crates"
+	title: "Quantum Storage"
+	icon: "quantumstorage:chestdiamond"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "218249B1A4E7F92C"
+			tasks: [{
+				id: "2C91FD7E74051E06"
+				type: "item"
+				item: "quantumstorage:chestiron"
+			}]
+			rewards: [
+				{
+					id: "6F13F380661A826A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "436B7BA7A36F6CB8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["218249B1A4E7F92C"]
+			id: "0208BF2A1DB0BCB1"
+			tasks: [{
+				id: "69ACC87EBE5C6C2A"
+				type: "item"
+				item: "quantumstorage:chestgold"
+			}]
+			rewards: [
+				{
+					id: "19382653B3FF9E54"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "08C7CDA2C6F9EEC5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["0208BF2A1DB0BCB1"]
+			id: "3BCC620ABE6A4319"
+			tasks: [{
+				id: "387132D16E088DED"
+				type: "item"
+				item: "quantumstorage:chestdiamond"
+			}]
+			rewards: [
+				{
+					id: "1FE0BC7C5D7CF2BF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "539A3858C1227C3A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["3BCC620ABE6A4319"]
+			id: "15E31137FDBB4EB9"
+			tasks: [{
+				id: "08FEF3D3A352BD27"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						items: [
+							{
+								id: "quantumstorage:quantum_bag_cyan"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_purple"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_blue"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_yellow"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_lime"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_pink"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_gray"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_light_gray"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_black"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_red"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_green"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_brown"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_white"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_orange"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_magenta"
+								Count: 1b
+							}
+							{
+								id: "quantumstorage:quantum_bag_light_blue"
+								Count: 1b
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Quantum Bag\"}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7FCD6732F747F706"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3039F0E586F844A8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,874 @@
+{
+	id: "16D24C3EA61512B5"
+	group: "132AD1F5CE2CAC45"
+	order_index: 2
+	filename: "metal_barrels"
+	title: "Metal Barrels"
+	icon: "metalbarrels:crystal_barrel"
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["102BC3A34D9EF36A"]
+			id: "37A37565622D7D8D"
+			tasks: [{
+				id: "38B8B32E018DE322"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+			rewards: [
+				{
+					id: "615BB971133EC923"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "188920D285887FA1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "102BC3A34D9EF36A"
+			tasks: [{
+				id: "2390BC76F51AA522"
+				type: "item"
+				item: "metalbarrels:copper_barrel"
+			}]
+			rewards: [
+				{
+					id: "6539576D3058B89D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5E211D30CD5E74F9"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["37A37565622D7D8D"]
+			id: "69222F4C7A023050"
+			tasks: [{
+				id: "2E9F7A6FCA8AE7CA"
+				type: "item"
+				item: "metalbarrels:silver_barrel"
+			}]
+			rewards: [
+				{
+					id: "14EB61BC463F3C15"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0B85EAD95450ECAE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["69222F4C7A023050"]
+			id: "2EED0F4AFB918A34"
+			tasks: [{
+				id: "0918ECD9DB65A0AE"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+			rewards: [
+				{
+					id: "19055556EBB850B6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "58A334488E364665"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["184BA0B80AE03626"]
+			id: "55B23C3D3B9D371D"
+			tasks: [{
+				id: "6419A63B566D3D83"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+			rewards: [
+				{
+					id: "04B638D22D846D7D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "57D131B36AFB9DBB"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			dependencies: ["2EED0F4AFB918A34"]
+			id: "184BA0B80AE03626"
+			tasks: [{
+				id: "5EB27C7F7D2641BF"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+			rewards: [
+				{
+					id: "57498067434C84EF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1D32484425F55A7A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 9.0d
+			dependencies: ["55B23C3D3B9D371D"]
+			id: "2F87EE9DDF0D2DEF"
+			tasks: [{
+				id: "6414D83D475D00A1"
+				type: "item"
+				item: "metalbarrels:crystal_barrel"
+			}]
+			rewards: [
+				{
+					id: "34A0DD5A6AB1485F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0CCD0D77DC2C669F"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			dependencies: ["2F87EE9DDF0D2DEF"]
+			id: "25E54DB3B606AA4E"
+			tasks: [{
+				id: "4F4699D602C63EB5"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+			rewards: [
+				{
+					id: "24290DE66AA23E11"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0E9329383930C145"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "4CA6EBC805905B34"
+			tasks: [{
+				id: "24AC2E8DB4FAE909"
+				type: "item"
+				item: "metalbarrels:wood_to_copper"
+			}]
+			rewards: [
+				{
+					id: "6D33E59BDD32596E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1F31D02BB4647AA8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["4CA6EBC805905B34"]
+			id: "7373A5A929E0C927"
+			tasks: [{
+				id: "49FF253A62B24383"
+				type: "item"
+				item: "metalbarrels:wood_to_iron"
+			}]
+			rewards: [
+				{
+					id: "3626A9D170B11221"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "66E3D2EB7E5822CC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["7373A5A929E0C927"]
+			id: "6A8AA1B32BD8CB2B"
+			tasks: [{
+				id: "7C1BC2719FB601F3"
+				type: "item"
+				item: "metalbarrels:wood_to_silver"
+			}]
+			rewards: [
+				{
+					id: "03C6A8C25392A28C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0D9A2AB6136345C1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["6A8AA1B32BD8CB2B"]
+			id: "121709197DC0A616"
+			tasks: [{
+				id: "7C23247E5BC5BB1B"
+				type: "item"
+				item: "metalbarrels:wood_to_gold"
+			}]
+			rewards: [
+				{
+					id: "4F94D0B35D1C7883"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2BE5BB18A973BFE3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["514127076119B56F"]
+			id: "218EC881BBF84999"
+			tasks: [{
+				id: "4071C2291703C787"
+				type: "item"
+				item: "metalbarrels:wood_to_obsidian"
+			}]
+			rewards: [
+				{
+					id: "1174321F2B8E1954"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "01141EC8C26A2060"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["631BF215FBC0C7B0"]
+			id: "2E1D312410B336EF"
+			tasks: [{
+				id: "076FE9815FAD4DE4"
+				type: "item"
+				item: "metalbarrels:wood_to_netherite"
+			}]
+			rewards: [
+				{
+					id: "00ACB4227BFAF820"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "357235DA896FEFF8"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["218EC881BBF84999"]
+			id: "631BF215FBC0C7B0"
+			tasks: [{
+				id: "4916744A7B7CE20E"
+				type: "item"
+				item: "metalbarrels:wood_to_crystal"
+			}]
+			rewards: [
+				{
+					id: "438F0B7F7E1ED820"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6609E92E5FCB05B1"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["121709197DC0A616"]
+			id: "514127076119B56F"
+			tasks: [{
+				id: "30BF6F85BA117D57"
+				type: "item"
+				item: "metalbarrels:wood_to_diamond"
+			}]
+			rewards: [
+				{
+					id: "24B0D9CD957964F1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "06D15699B14725F2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["4CA6EBC805905B34"]
+			id: "0C9FCFDF684455A1"
+			tasks: [{
+				id: "78A809773F59BFFF"
+				type: "item"
+				item: "metalbarrels:copper_to_iron"
+			}]
+			rewards: [
+				{
+					id: "66147A52F64BCB5A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2AA4CD4C007547C6"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0C9FCFDF684455A1"]
+			id: "12DD54664D824F3E"
+			tasks: [{
+				id: "0DB20B24BE31CCA2"
+				type: "item"
+				item: "metalbarrels:copper_to_silver"
+			}]
+			rewards: [
+				{
+					id: "1D918D6CCCA538E7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2D6682B5CD9B054A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["12DD54664D824F3E"]
+			id: "3B3E12E779EB52EB"
+			tasks: [{
+				id: "40747F7ABD920D7B"
+				type: "item"
+				item: "metalbarrels:copper_to_gold"
+			}]
+			rewards: [
+				{
+					id: "50331736C216818E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "21EFF317B533D37B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["3B3E12E779EB52EB"]
+			id: "2C8CF130D3BA3104"
+			tasks: [{
+				id: "501734B6D9A19118"
+				type: "item"
+				item: "metalbarrels:copper_to_diamond"
+			}]
+			rewards: [
+				{
+					id: "66F49C94079799C5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "23BF04985DCC2B8B"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["2C8CF130D3BA3104"]
+			id: "4BBD78518EB7A4EF"
+			tasks: [{
+				id: "7DDDAC34A1F139E9"
+				type: "item"
+				item: "metalbarrels:copper_to_obsidian"
+			}]
+			rewards: [
+				{
+					id: "186625BC9C96BB86"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2DAFE1BDE10AF596"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["4BBD78518EB7A4EF"]
+			id: "331577378AB13EA2"
+			tasks: [{
+				id: "23B0629031E15B2C"
+				type: "item"
+				item: "metalbarrels:copper_to_crystal"
+			}]
+			rewards: [
+				{
+					id: "07854A143FAC3E1C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "7E538CB11EAA36BC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["7373A5A929E0C927"]
+			id: "129245785D218A36"
+			tasks: [{
+				id: "7B22366A6B83C066"
+				type: "item"
+				item: "metalbarrels:iron_to_silver"
+			}]
+			rewards: [
+				{
+					id: "51C275F2227FDBAF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "737EB2383E7330EC"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["129245785D218A36"]
+			id: "1B309980023FD821"
+			tasks: [{
+				id: "5E78740F4FE0F2CF"
+				type: "item"
+				item: "metalbarrels:iron_to_gold"
+			}]
+			rewards: [
+				{
+					id: "55CBBCB94BACA8C1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6FE2E0589D8E78C7"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["1B309980023FD821"]
+			id: "0A889C1480B931DD"
+			tasks: [{
+				id: "633092F69EB1E792"
+				type: "item"
+				item: "metalbarrels:iron_to_diamond"
+			}]
+			rewards: [
+				{
+					id: "76C39B7A56774555"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "28F7CECB07CB348A"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["0A889C1480B931DD"]
+			id: "66EFDFED946CEF53"
+			tasks: [{
+				id: "24D7ADA60B577148"
+				type: "item"
+				item: "metalbarrels:iron_to_obsidian"
+			}]
+			rewards: [
+				{
+					id: "35482890ED41C351"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6048D63ADA6F2CB2"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["66EFDFED946CEF53"]
+			id: "2B6DB70FE2F5B706"
+			tasks: [{
+				id: "78042B60191F95D9"
+				type: "item"
+				item: "metalbarrels:iron_to_crystal"
+			}]
+			rewards: [
+				{
+					id: "24304B0D7CE4E52B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2322212F19BEFCDE"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["6A8AA1B32BD8CB2B"]
+			id: "4E7201E7CB62D500"
+			tasks: [{
+				id: "1BA81999A40E9771"
+				type: "item"
+				item: "metalbarrels:silver_to_gold"
+			}]
+			rewards: [
+				{
+					id: "18EFE98E63F295DA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "1D7D837BF022E257"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["4E7201E7CB62D500"]
+			id: "27A454299D58947C"
+			tasks: [{
+				id: "4375FA1648D0A403"
+				type: "item"
+				item: "metalbarrels:silver_to_diamond"
+			}]
+			rewards: [
+				{
+					id: "2C153C3454911D2F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5490F60B4D65EDB3"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["27A454299D58947C"]
+			id: "54DCF4955EF2F7A8"
+			tasks: [{
+				id: "50BADF1B8B1FE992"
+				type: "item"
+				item: "metalbarrels:silver_to_obsidian"
+			}]
+			rewards: [
+				{
+					id: "7D049F55FDB4D260"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "703C780ADDB85F45"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["54DCF4955EF2F7A8"]
+			id: "28E7B38114016E39"
+			tasks: [{
+				id: "408876199BCB06AF"
+				type: "item"
+				item: "metalbarrels:silver_to_crystal"
+			}]
+			rewards: [
+				{
+					id: "01402812D733DC87"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "0654EF576564E729"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["121709197DC0A616"]
+			id: "477FD4963CAF187B"
+			tasks: [{
+				id: "1739174F1B545E1B"
+				type: "item"
+				item: "metalbarrels:gold_to_diamond"
+			}]
+			rewards: [
+				{
+					id: "4F90A5840610ED54"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "10F1F4860BF5AFB5"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["477FD4963CAF187B"]
+			id: "5060F8F2339E7521"
+			tasks: [{
+				id: "6F491E57B494DCF8"
+				type: "item"
+				item: "metalbarrels:gold_to_obsidian"
+			}]
+			rewards: [
+				{
+					id: "2234551B4F1EC61C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "6FCD5AA7EE106888"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["5060F8F2339E7521"]
+			id: "5400E91E30E635F4"
+			tasks: [{
+				id: "618E46D215109018"
+				type: "item"
+				item: "metalbarrels:gold_to_crystal"
+			}]
+			rewards: [
+				{
+					id: "0860E462B86B2CCB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "2D3E3C102EAE5A20"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["514127076119B56F"]
+			id: "33A0ADD75DAB02BF"
+			tasks: [{
+				id: "74F4F5BAAF54D446"
+				type: "item"
+				item: "metalbarrels:diamond_to_obsidian"
+			}]
+			rewards: [
+				{
+					id: "52E0555F58B45FFE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "5E76C41619BB1052"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["33A0ADD75DAB02BF"]
+			id: "54AADFD8FABB7437"
+			tasks: [{
+				id: "6AFED3128D7447B2"
+				type: "item"
+				item: "metalbarrels:diamond_to_crystal"
+			}]
+			rewards: [
+				{
+					id: "2350E7853D366011"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 4
+				}
+				{
+					id: "3ED0015F217D4C84"
+					type: "random"
+					table_id: 7807219161801813045L
+				}
+			]
+		}
+	]
+}
